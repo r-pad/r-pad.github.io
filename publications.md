@@ -4,7 +4,7 @@ title: Publications
 subtitle:
 ---
 
-Check out [this document](https://docs.google.com/document/d/1i3QrSpbLlRs28Q36Qig6iu1pL7XMSm0XzmdhTXJysk8/edit#) to see our research highlights! <br>
+Check out [this document](https://docs.google.com/document/d/1i3QrSpbLlRs28Q36Qig6iu1pL7XMSm0XzmdhTXJysk8/edit#) to see our research highlights, and [this document](../Research_Statement.pdf) which contains a research statement summarizing some recent (and future) directions for the lab! <br>
 Also, here is a [recent video](https://youtu.be/AZjzndMv9dU?t=54) (February 14, 2022) on some of our work.
 
 <!--Also, here is a [recent video](https://www.youtube.com/watch?v=YSj4cIFxvhc) (Dec 10, 2021) on some of our work.-->
@@ -14,158 +14,129 @@ Also, here is a [recent video](https://youtu.be/AZjzndMv9dU?t=54) (February 14, 
 
     <tr>
         <td class="pubimg" width="250" height="100" style="text-align:center">
-            <img src="../pics/ECCV-logo3.png" img width="250">
+            <img src="../pics/new_splash.png" img width="250" height="120">
         </td>
         <td>Differentiable Raycasting for Self-supervised Occupancy Forecasting<br>
             <div class="pubauthor">
             Tarasha Khurana*, Peiyun Hu*, Achal Dave, Jason Ziglar, David Held, Deva Ramanan<br>
             </div>
-            <div id="bib2022flowbot3D" style="display:none">
-                <blockquote>
-                    <pre>@inproceedings{EisnerZhang2022FLOW,
-            title={FlowBot3D: Learning 3D Articulation Flow to Manipulate Articulated Objects},
-            author={Eisner*, Ben and Zhang*, Harry and Held,David},
-            booktitle={Robotics: Science and Systems (RSS)},
-            year={2022}
-       }
-
-            </pre>
-        </blockquote>
-    </div>
-    <div id="abs2022flowbot3D" style="display:none">
-        <blockquote>
-            We explore a novel method to perceive and manipulate 3D articulated objects that generalizes to enable a robot to articulate unseen classes of objects. We propose a vision-based system that learns to predict the potential motions of the parts of a variety of articulated objects to guide downstream motion planning of the system to articulate the objects. To predict the object motions, we train a neural network to output a dense vector field representing the point-wise motion direction of the points in the point cloud under articulation. We then deploy an analytical motion planner based on this vector field to achieve a policy that yields maximum articulation. We train the vision system entirely in simulation, and we demonstrate the capability of our system to generalize to unseen object instances and novel categories in both simulation and the real world, deploying our policy on a Sawyer robot with no finetuning. Results show that our system achieves state-of-the-art performance in both simulated and real-world experiments.
-
-        </blockquote>
-    </div>
-    <div class="pubjournal">European Conference on Computer Vision (ECCV), 2022
-    <!--div style="font-size:small">
-        <a href="https://sites.google.com/view/articulated-flowbot-3d/home#h.xrrj1zv4o44a">[Project Page]</a>
-        <a href="javascript:copy(div2022flowbot3D, bib2022flowbot3D)">[Bibtex]</a>
-        <a href="javascript:copy(div2022flowbot3D, abs2022flowbot3D)">[Abstract]</a>
-        <a href="https://arxiv.org/pdf/2205.04382.pdf">[PDF]</a>
-    </div-->
-    <div id="div2022flowbot3D" class="pubInfo"></div>
-    </div>
-    <br>
-</td>
-</tr>
+            <div class="pubjournal">European Conference on Computer Vision (ECCV), 2022
+            <br></div>
+        </td>
+    </tr>
 
     <tr>
         <td class="pubimg" width="250" height="100" style="text-align:center">
-            <img src="../pics/iros2022_logo.png" img width="250">
+            <img src="../pics/iros2022-singulating-layers-fabric-reskin-400x210.gif" img width="250">
         </td>
         <td>Learning to Singulate Layers of Cloth based on Tactile Feedback<br>
             <div class="pubauthor">
             Sashank Tirumala*, Thomas Weng*, Daniel Seita*, Oliver Kroemer, Zeynep Temel, David Held<br>
             </div>
-            <div id="bib2022flowbot3D" style="display:none">
+            <div id="bib2022reskinfabric" style="display:none">
                 <blockquote>
-                    <pre>@inproceedings{EisnerZhang2022FLOW,
-            title={FlowBot3D: Learning 3D Articulation Flow to Manipulate Articulated Objects},
-            author={Eisner*, Ben and Zhang*, Harry and Held,David},
-            booktitle={Robotics: Science and Systems (RSS)},
-            year={2022}
-       }
-
-                </pre>
-            </blockquote>
-        </div>
-        <div id="abs2022flowbot3D" style="display:none">
+                    <pre>
+                    @inproceedings{tirumala2022,
+                    title={Learning to Singulate Layers of Cloth based on Tactile Feedback},
+                    author={Sashank Tirumala and Thomas Weng and Daniel Seita and Oliver Kroemer and Zeynep Temel and   David Held},
+                    booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+                    year={2022},
+                    }
+                    </pre>
+                </blockquote>
+            </div>
+        <div id="abs2022reskinfabric" style="display:none">
             <blockquote>
-                We explore a novel method to perceive and manipulate 3D articulated objects that generalizes to enable a robot to articulate unseen classes of objects. We propose a vision-based system that learns to predict the potential motions of the parts of a variety of articulated objects to guide downstream motion planning of the system to articulate the objects. To predict the object motions, we train a neural network to output a dense vector field representing the point-wise motion direction of the points in the point cloud under articulation. We then deploy an analytical motion planner based on this vector field to achieve a policy that yields maximum articulation. We train the vision system entirely in simulation, and we demonstrate the capability of our system to generalize to unseen object instances and novel categories in both simulation and the real world, deploying our policy on a Sawyer robot with no finetuning. Results show that our system achieves state-of-the-art performance in both simulated and real-world experiments.
-
+	Robotic manipulation of cloth has applications ranging from fabrics manufacturing to handling blankets and laundry. Cloth manipulation is challenging for robots largely due to their high degrees of freedom, complex dynamics, and severe self-occlusions when in folded or crumpled configurations. Prior work on robotic manipulation of cloth relies primarily on vision sensors alone, which may pose challenges for fine-grained manipulation tasks such as grasping a desired number of cloth layers from a stack of cloth. In this paper, we propose to use tactile sensing for cloth manipulation; we attach a tactile sensor (ReSkin) to one of the two fingertips of a Franka robot and train a classifier to determine whether the robot is grasping a specific number of cloth layers. During test-time experiments, the robot uses this classifier as part of its policy to grasp one or two cloth layers using tactile feedback to determine suitable grasping points. Experimental results over 180 physical trials suggest that the proposed method outperforms baselines that do not use tactile feedback and has a better generalization to unseen fabrics compared to methods that use image classifiers. 
             </blockquote>
         </div>
-        <div class="pubjournal">International Conference on Intelligent Robots and Systems (IROS), 2022
-        <!--div style="font-size:small">
-            <a href="https://sites.google.com/view/articulated-flowbot-3d/home#h.xrrj1zv4o44a">[Project Page]</a>
-            <a href="javascript:copy(div2022flowbot3D, bib2022flowbot3D)">[Bibtex]</a>
-            <a href="javascript:copy(div2022flowbot3D, abs2022flowbot3D)">[Abstract]</a>
-            <a href="https://arxiv.org/pdf/2205.04382.pdf">[PDF]</a>
-        </div-->
-        <div id="div2022flowbot3D" class="pubInfo"></div>
+        <div class="pubjournal">International Conference on Intelligent Robots and Systems (IROS), 2022</div>
+        <div style="font-size:small">
+            <a href="https://sites.google.com/view/reskin-cloth/home">[Project Page]</a>
+            <a href="javascript:copy(div2022reskinfabric, bib2022reskinfabric)">[Bibtex]</a>
+            <a href="javascript:copy(div2022reskinfabric, abs2022reskinfabric)">[Abstract]</a>
+	    <a href="https://arxiv.org/abs/2207.11196">[arXiv]</a>
         </div>
+        <div id="div2022reskinfabric" class="pubInfo"></div>
         <br>
     </td>
     </tr>
-    
     <tr>
         <td class="pubimg" width="250" height="100" style="text-align:center">
-            <img src="../pics/iros2022_logo.png" img width="250">
+            <img src="../pics/carl-22-website.gif" img width="250">
         </td>
-        <td>Learning Closed-loop Dough Manipulation using a Differentiable Reset Module<br>
+        <td><a href="https://sites.google.com/view/dough-manipulation">Learning Closed-loop Dough Manipulation using a Differentiable Reset Module</a><br>
             <div class="pubauthor">
             Carl Qi, Xingyu Lin, David Held<br>
             </div>
-            <div id="bib2022flowbot3D" style="display:none">
+            <div id="bib2022raldough" style="display:none">
                 <blockquote>
-                    <pre>@inproceedings{EisnerZhang2022FLOW,
-            title={FlowBot3D: Learning 3D Articulation Flow to Manipulate Articulated Objects},
-            author={Eisner*, Ben and Zhang*, Harry and Held,David},
-            booktitle={Robotics: Science and Systems (RSS)},
-            year={2022}
-       }
-
-            </pre>
-        </blockquote>
-    </div>
-    <div id="abs2022flowbot3D" style="display:none">
-        <blockquote>
-            We explore a novel method to perceive and manipulate 3D articulated objects that generalizes to enable a robot to articulate unseen classes of objects. We propose a vision-based system that learns to predict the potential motions of the parts of a variety of articulated objects to guide downstream motion planning of the system to articulate the objects. To predict the object motions, we train a neural network to output a dense vector field representing the point-wise motion direction of the points in the point cloud under articulation. We then deploy an analytical motion planner based on this vector field to achieve a policy that yields maximum articulation. We train the vision system entirely in simulation, and we demonstrate the capability of our system to generalize to unseen object instances and novel categories in both simulation and the real world, deploying our policy on a Sawyer robot with no finetuning. Results show that our system achieves state-of-the-art performance in both simulated and real-world experiments.
-
-        </blockquote>
-    </div>
-    <div class="pubjournal">Robotics and Automation Letters (RA-L) with presentation at the International Conference on Intelligent Robots and Systems (IROS), 2022
-    <!--div style="font-size:small">
-        <a href="https://sites.google.com/view/articulated-flowbot-3d/home#h.xrrj1zv4o44a">[Project Page]</a>
-        <a href="javascript:copy(div2022flowbot3D, bib2022flowbot3D)">[Bibtex]</a>
-        <a href="javascript:copy(div2022flowbot3D, abs2022flowbot3D)">[Abstract]</a>
-        <a href="https://arxiv.org/pdf/2205.04382.pdf">[PDF]</a>
-    </div-->
-    <div id="div2022flowbot3D" class="pubInfo"></div>
-    </div>
-    <br>
-    </td>
+                    <pre>@ARTICLE{qi2022dough, 
+author={Qi, Carl and Lin, Xingyu and Held, David},
+journal={IEEE Robotics and Automation Letters}, 
+title={Learning Closed-loop Dough Manipulation Using a Differentiable Reset Module}, 
+year={2022},
+volume={},
+number={},
+pages={1-8},
+doi={10.1109/LRA.2022.3191239}}
+                    </pre>
+                </blockquote>
+            </div>
+            <div id="abs2022raldough" style="display:none">
+                <blockquote>
+                    Deformable object manipulation has many applications such as cooking and laundry folding in our daily lives. Manipulating elastoplastic objects such as dough is particularly challenging because dough lacks a compact state representation and requires contact-rich interactions. We consider the task of flattening a piece of dough into a specific shape from RGB-D images. While the task is seemingly intuitive for humans, there exist local optima for common approaches such as naive trajectory optimization. We propose a novel trajectory optimizer that optimizes through a differentiable "reset" module, transforming a single-stage, fixed-initialization trajectory into a multistage, multi-initialization trajectory where all stages are optimized jointly. We then train a closed-loop policy on the demonstrations generated by our trajectory optimizer. Our policy receives partial point clouds as input, allowing ease of transfer from simulation to the real world. We show that our policy can perform real-world dough manipulation, flattening a ball of dough into a target shape.
+                </blockquote>
+            </div>
+            <div class="pubjournal">Robotics and Automation Letters (RA-L) with presentation at the International Conference on Intelligent Robots and Systems (IROS), 2022
+            <div style="font-size:small">
+                <a href="https://sites.google.com/view/dough-manipulation">[Project Page]</a>
+                <a href="javascript:copy(div2022raldough, bib2022raldough)">[Bibtex]</a>
+                <a href="javascript:copy(div2022raldough, abs2022raldough)">[Abstract]</a>
+                <a href="https://arxiv.org/pdf/2207.04638.pdf">[PDF]</a>
+            </div>
+            <div id="div2022raldough" class="pubInfo"></div>
+            </div>
+            <br>
+        </td>
     </tr>
 
     <tr>
         <td class="pubimg" width="250" height="100" style="text-align:center">
-            <img src="../pics/iros2022_logo.png" img width="250">
+            <img src="../pics/visual-haptic-reasoning-IROS.gif" img width="250">
         </td>
         <td>Visual Haptic Reasoning: Estimating Contact Forces by Observing Deformable Object Interactions<br>
             <div class="pubauthor">
             Yufei Wang, David Held, Zackory Erickson<br>
             </div>
-            <div id="bib2022flowbot3D" style="display:none">
+        <div id="bib2022vhr" style="display:none">
                 <blockquote>
-                    <pre>@inproceedings{EisnerZhang2022FLOW,
-            title={FlowBot3D: Learning 3D Articulation Flow to Manipulate Articulated Objects},
-            author={Eisner*, Ben and Zhang*, Harry and Held,David},
-            booktitle={Robotics: Science and Systems (RSS)},
-            year={2022}
-       }
+                    <pre>
+    @inproceedings{wang2022,
+    title={Visual Haptic Reasoning: Estimating Contact Forces by Observing Deformable Object Interactions},
+    author={Yufei Wang, David Held, and Zackory Erickson},
+    booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+    year={2022},
+    }
+                    </pre>
+                </blockquote>
+            </div>
 
-            </pre>
-        </blockquote>
-    </div>
-    <div id="abs2022flowbot3D" style="display:none">
-        <blockquote>
-            We explore a novel method to perceive and manipulate 3D articulated objects that generalizes to enable a robot to articulate unseen classes of objects. We propose a vision-based system that learns to predict the potential motions of the parts of a variety of articulated objects to guide downstream motion planning of the system to articulate the objects. To predict the object motions, we train a neural network to output a dense vector field representing the point-wise motion direction of the points in the point cloud under articulation. We then deploy an analytical motion planner based on this vector field to achieve a policy that yields maximum articulation. We train the vision system entirely in simulation, and we demonstrate the capability of our system to generalize to unseen object instances and novel categories in both simulation and the real world, deploying our policy on a Sawyer robot with no finetuning. Results show that our system achieves state-of-the-art performance in both simulated and real-world experiments.
-
-        </blockquote>
-    </div>
-    <div class="pubjournal">International Conference on Intelligent Robots and Systems (IROS), 2022
-    <!--div style="font-size:small">
-        <a href="https://sites.google.com/view/articulated-flowbot-3d/home#h.xrrj1zv4o44a">[Project Page]</a>
-        <a href="javascript:copy(div2022flowbot3D, bib2022flowbot3D)">[Bibtex]</a>
-        <a href="javascript:copy(div2022flowbot3D, abs2022flowbot3D)">[Abstract]</a>
-        <a href="https://arxiv.org/pdf/2205.04382.pdf">[PDF]</a>
-    </div-->
-    <div id="div2022flowbot3D" class="pubInfo"></div>
-    </div>
-    <br>
-    </td>
+        <div id="abs2022vhr" style="display:none">
+            <blockquote>
+    Robotic manipulation of highly deformable cloth presents a promising opportunity to assist people with several daily tasks, such as washing dishes; folding laundry; or dressing, bathing, and hygiene assistance for individuals with severe motor impairments. In this work, we introduce a formulation that enables a collaborative robot to perform visual haptic reasoning with cloth -- the act of inferring the location and magnitude of applied forces during physical interaction. We present two distinct model representations, trained in physics simulation, that enable haptic reasoning using only visual and robot kinematic observations. We conducted quantitative evaluations of these models in simulation for robot-assisted dressing, bathing, and dish washing tasks, and demonstrate that the trained models can generalize across different tasks with varying interactions, human body sizes, and object shapes.  We also present results with a real-world mobile manipulator, which used our simulation-trained models to estimate applied contact forces while performing physically assistive tasks with cloth.
+            </blockquote>
+        </div>
+        <div class="pubjournal">Robotics and Automation Letters (RA-L) with presentation at the International Conference on Intelligent Robots and Systems (IROS), 2022</div>
+        <div style="font-size:small">
+            <a href="https://sites.google.com/view/visualhapticreasoning/home">[Project Page]</a>
+            <a href="javascript:copy(div2022vhr, bib2022vhr)">[Bibtex]</a>
+            <a href="javascript:copy(div2022vhr, abs2022vhr)">[Abstract]</a>
+            [PDF]
+        </div>
+        <div id="div2022vhr" class="pubInfo"></div>
+        <br>
+        </td>
     </tr>
 
 
@@ -231,8 +202,8 @@ Also, here is a [recent video](https://youtu.be/AZjzndMv9dU?t=54) (February 14, 
             <div id="abs2022occnet" style="display:none">
                 <blockquote>
                    Self-occlusion is challenging for cloth manipulation, as it makes it difficult to estimate the full state of the cloth. Ideally, a robot trying to unfold a crumpled or folded cloth should be able to reason about the cloth's occluded regions.
-
-We leverage recent advances in pose estimation for cloth to build a system that uses explicit occlusion reasoning to unfold a crumpled cloth. Specifically, we first learn a model to reconstruct the mesh of the cloth. However, the model will likely have errors due to the complexities of the cloth configurations and due to ambiguities from occlusions. Our main insight is that we can further refine the predicted reconstruction by performing test-time finetuning with self-supervised losses. The obtained reconstructed mesh allows us to use a mesh-based dynamics model for planning while reasoning about occlusions. We evaluate our system both on cloth flattening as well as on cloth canonicalization, in which the objective is to manipulate the cloth into a canonical pose. Our experiments show that our method significantly outperforms prior methods that do not explicitly account for occlusions or perform test-time optimization.
+                    We leverage recent advances in pose estimation for cloth to build a system that uses explicit occlusion reasoning to unfold a crumpled cloth. Specifically, we first learn a model to reconstruct the mesh of the cloth. However, the model will likely have errors due to the complexities of the cloth configurations and due to ambiguities from occlusions.  Our main insight is that we can further refine the predicted reconstruction by performing test-time finetuning with self-supervised losses. The obtained reconstructed mesh allows us to use a mesh-based dynamics model for planning while reasoning about occlusions. We evaluate our system both on cloth flattening as well as on  cloth canonicalization, in which the objective is to manipulate the cloth into a canonical pose. Our experiments show that our method significantly outperforms prior methods that do not explicitly account for occlusions or perform test-time optimization.
+                
 
                 </blockquote>
             </div>
@@ -242,6 +213,8 @@ We leverage recent advances in pose estimation for cloth to build a system that 
                 <a href="javascript:copy(div2022occnet, bib2022occnet)">[Bibtex]</a>
                 <a href="javascript:copy(div2022occnet, abs2022occnet)">[Abstract]</a>
                 <a href="https://arxiv.org/abs/2206.02881">[PDF]</a>
+                <a href="https://youtu.be/0s9PA6EgiqE">[Video]</a>
+                <a href="https://drive.google.com/file/d/1xdMVN7moNcdIeAPuPP0tpdvtjIfeFWdZ/view?usp=sharing">[Poster]</a>
             </div>
             <div id="div2022occnet" class="pubInfo"></div>
             </div>
