@@ -62,6 +62,9 @@ members:
             web_url: https://tjvitchutripop.github.io/
           - name: Yishu Li
             photo_url: /img/members/yishu.jpg
+            web_url:
+          - name: Yiming Fang
+            phto_url: https://assets-global.website-files.com/648de16fbdcb444587b44032/6491cbba085cab6e4ebae174_Yiming.jpg
             web_url: 
       - name: Visiting Students
         full: true
