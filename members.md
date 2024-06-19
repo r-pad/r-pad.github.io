@@ -69,9 +69,6 @@ members:
       - name: Visiting Students
         full: true
         list:
-          - name: Angela Rodriguez-Izquierdo
-            photo_url: https://www.ri.cmu.edu/app/uploads/2023/09/AngelaR_2023.jpg
-            web_url: https://www.ri.cmu.edu/ri-people/angela-rodriguez-izquierdo-gallardo/
           - name: Bharath Hegde
             photo_url: /img/members/bharath.jpg
             web_url: https://bharath-hegde.github.io/
@@ -171,6 +168,7 @@ members:
       - name: Interns
         full: False
         list:
+                   - name: Angela Rodriguez-Izquierdo
                    - name: Gunjan Sethi (MRSD) -> Raven Industries
                    - name: Khush Agrawal (RISS)
                    - name: Pengsheng Guo
