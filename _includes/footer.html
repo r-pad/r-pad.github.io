@@ -2,7 +2,9 @@
   <div class="container beautiful-jekyll-footer">
     <div class="row">
       <div class="footer-logo col-lg-2">
-        <img src="/DavidHeld_files/rpad3-text.png" alt="Lab logo">
+        <div class="iam-logo-container">
+          <img src="/img/iam_lab_website_banner_sm.png" alt="Lab logo" class="iam-lab-logo">
+        </div>
       </div>
       <div class="col-lg-8">
         <ul class="list-inline text-center footer-links">
@@ -26,31 +28,31 @@
             </li>
           {%- endfor -%}
         </ul>
-      <p class="copyright text-muted">
-      {{ site.author.name }}
-      &nbsp;&bull;&nbsp;
-      {{ site.time | date: '%Y' }}
-
-      {% if site.url-pretty %}
-      &nbsp;&bull;&nbsp;
-      <a href="{{ '' | absolute_url }}">{{ site.url-pretty }}</a>
-      {% endif %}
-
-      {% if site.matomo %}
-        {% if site.matomo.opt-out %}
+        <p class="copyright text-muted">
+          {{ site.author.name }}
           &nbsp;&bull;&nbsp;
-          <a href="http://{{- site.matomo.uri -}}/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
-        {% endif %}
-      {% endif%}
-      </p>
-          <!-- Please don't remove this, keep my open source work credited :) -->
-    <p class="theme-by text-muted">
-      Theme by
-      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
-    </p>
+          {{ site.time | date: '%Y' }}
+
+          {% if site.url-pretty %}
+          &nbsp;&bull;&nbsp;
+          <a href="{{ '' | absolute_url }}">{{ site.url-pretty }}</a>
+          {% endif %}
+
+          {% if site.matomo %}
+            {% if site.matomo.opt-out %}
+              &nbsp;&bull;&nbsp;
+              <a href="http://{{- site.matomo.uri -}}/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
+            {% endif %}
+          {% endif%}
+        </p>
+        <!-- Please don't remove this, keep my open source work credited :) -->
+        <p class="theme-by text-muted">
+          Theme by
+          <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+        </p>
       </div>
       <div class="footer-logo col-lg-2">
-        <img src="/DavidHeld_files/cmu-wordmark-stacked-r.png" alt="CMU logo">
+        <img src="/DavidHeld_files/cmu-wordmark-stacked-r.png" alt="CMU logo" class="cmu-logo">
       </div>
     </div>
   </div>

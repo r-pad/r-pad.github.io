@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: R-PAD Lab
+title: IAM Lab
 
 # Short description of your site
-description: Robots Perceiving and Doing
+description: Intelligent Autonomous Manipulation Lab
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -16,28 +16,32 @@ description: Robots Perceiving and Doing
 # baseurl should be an empty string
 # baseurl: ""
 
-# --- Navigation bar options --- #
-
-# List of links in the navigation bar
+###############################################
+# --- List of links in the navigation bar --- #
+###############################################
 navbar-links:
   Home: "/"
-  Members: "members"
-  Research Areas: "areas"
-  Publications: "publications"
-  Robot Demos: "demos"
+  Lab: "members"
+  Research: "publications"
   # About Me: "aboutme"
   # Resources:
     # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     # - Learn markdown: "http://www.markdowntutorial.com/"
   # Author's home: "http://deanattali.com"
 
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-# avatar: "/img/avatar-icon.png"
+################
+# --- Logo --- #
+################
 
+# Image to show in the navigation bar - works best with a square image
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/img/iam_lab_logo.png"
+
+# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
+round-avatar: true
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img: "/DavidHeld_files/rpad3.png"
+title-img: "/img/iam_lab_website_banner_sm.png"
 
 # --- Background colour/image options --- #
 
@@ -65,7 +69,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Robots Perceiving and Doing Lab
+  name: Intelligent Autonomous Manipulation Lab
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.

@@ -1,26 +1,28 @@
 .jumbotron-main {
   color: white;
-  background-color: black;
+  background-color: white;
   padding-top: 0;
   padding-bottom: 0;
   position: relative;
 }
 
 .lab-photo {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%),
-    url("/img/lab.jpg") no-repeat center center;
-    /* url("/DavidHeld_files/rpad group pic - Aug 2020 - fix.png") no-repeat center center; */
+  background: url("/img/iamlab_groupv2.png") no-repeat center center;
   background-size: cover;
-  background-color: black;
+  background-color: white;
   min-height: 550px;
-  /* padding-top: 8%; */
   position: relative;
+  display: flex;
+  align-items: flex-end;  /* This aligns the content to the bottom */
+  padding-bottom: 30px;  /* Add some padding at the bottom */
 }
+
 @media only screen and (max-width: 900px) {
   .lab-photo {
     background-size: contain;
   }
 }
+
 @media only screen and (max-width: 300px) {
   .lab-photo {
     background-size: contain;
@@ -42,11 +44,34 @@
 }
 
 .footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 75px;
 }
 
-.footer-logo img {
-  height: inherit;
+.iam-logo-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iam-lab-logo {
+  max-width: 175%;
+  max-height: 175%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.cmu-logo {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 
 .member-col {
