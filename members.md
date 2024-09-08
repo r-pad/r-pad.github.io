@@ -1,222 +1,151 @@
 ---
 layout: page
-title: Members
-subtitle:
-members:
-  - name: Faculty
-    list:
-      - full: true
-        list:
-          - name: David Held
-            photo_url: https://davheld.github.io/DavidHeld_files/DavidHeld.jpg
-            web_url: https://davheld.github.io
-  - name: Current members
-    list:
-      - name: PhD students
-        full: true
-        list:
-          - name: Ben Eisner
-            photo_url: https://www.ri.cmu.edu/wp-content/uploads/2020/07/Eisner_Benjamin_2020.png
-            web_url: http://beisner.me/
-          - name: Yufei Wang<br>(co-advised with Zackory Erickson)
-            photo_url: https://yufeiwang63.github.io/img/1inch_yufeiwang.jpg
-            web_url: https://yufeiwang63.github.io/
-      - name: Masters students
-        full: true
-        list:
-          - name: Pranay Gupta (MSR)
-            photo_url: /img/members/pranaygupta.jpg
-            web_url: https://www.ri.cmu.edu/ri-people/pranay-gupta/
-          - name: Octavian Donca (MSR)
-            photo_url: https://www.ri.cmu.edu/app/uploads/2023/09/odonca-1-300x450.jpg
-            web_url: https://www.ri.cmu.edu/ri-people/octavian-donca/
-          - name: Eric Cai (MSR)
-            photo_url: /img/members/ericcai.jpg
-            web_url: https://www.ri.cmu.edu/ri-people/ericcai/
-          - name: Lifan Yu (MSCV)
-            photo_url: /img/members/lifanyu.jpg
-            web_url: https://www.ri.cmu.edu/ri-people/lifan-yu/
-          - name: Haoyue Liu (MSCV)
-            photo_url: /img/members/haoyueliu.jpg
-            web_url: https://www.ri.cmu.edu/ri-people/haoyue-liu/
-      - name: Undergraduate Students
-        full: true
-        list:
-      - name: Visiting Students
-        full: true
-        list:
-  - name: <a name="alumni"></a>Alumni
-    list:
-      - name: Post-Doc alumni
-        full: False
-        list:
-          - name: Daniel Seita -> Assistant Professor at USC
-            web_url: https://danielseita.github.io/
-      - name: PhD alumni
-        full: False
-        list:
-          - name: Wenxuan Zhou -> Research Scientist at Meta
-            web_url: https://wenxuan-zhou.github.io/
-          - name: Thomas Weng -> Boston Dynamics AI Institute
-            web_url: https://www.thomasweng.com
-          - name: Brian Okorn (co-advised with Martial Hebert) -> Boston Dynamics AI Institute
-            web_url: http://brianokorn.com/
-          - name: Xingyu Lin -> Post-doc with Pieter Abbeel at UC Berkeley
-            web_url: https://xingyu-lin.github.io/
-          - name: Siddharth Ancha (co-advised with Srinivasa Narasimhan) -> Post-doc with Nick Roy at MIT
-            web_url: https://siddancha.github.io/
-      - name: Master's students (Research Master's)
-        full: False
-        list:
-          - name: Zhanyi Sun (MSR) -> Stanford PhD
-            web_url: https://www.ri.cmu.edu/ri-people/zhanyi-sun/
-          - name: Bowen Jiang (MSR) -> UT Austin PhD
-            web_url: https://jiangbowen0008.github.io/    
-          - name: Jenny Wang -> Walt Disney Imagineering 
-            web_url: https://www.ri.cmu.edu/ri-people/jenny-wang/
-          - name: Mansi Agarwal (MSR) -> Amazon Robotics
-            web_url: https://mansiagarwal11.github.io/
-          - name: Sashank Tirumala (MSR) -> AIM Intelligent Machines
-            web_url: https://sashank-tirumala.github.io/
-          - name: Fan Yang (MSR) -> Michigan PhD
-            web_url: https://fanyangcmu.github.io
-          - name: Sarthak Shetty (MSME) -> Path Robotics
-            web_url: https://sarthakjshetty.github.io/
-          - name: Chuer Pan (MSR) -> Stanford PhD
-            web_url: https://chuerpan.com/
-          - name: Haolun (Harry) Zhang (MSR) -> MIT PhD
-            web_url: https://harryzhangog.github.io/
-          - name: Carl Qi (MSML) -> UT Austin PhD
-            web_url: https://carl-qi.github.io/
-          - name: Gaurav Pathak (MSR) -> Adobe
-            web_url: https://www.ri.cmu.edu/ri-people/gaurav-pathak/
-          - name: Zixuan Huang (MSR) -> Michigan PhD
-            web_url: https://zxhuang97.github.io/
-          - name: Yufei Wang (MSCS) -> CMU PhD
-            web_url: https://yufeiwang63.github.io/
-          - name: Harshit Sikchi (MSCS) -> UT Austin PhD
-            web_url: https://hari-sikchi.github.io/
-          - name: Sujay Bajrachaya (MSR) -> Software Engineer at Epic Systems
-            web_url: https://sujaybajracharya.me/
-          - name: Qiao Gu (MSR) -> U Toronto PhD
-            web_url: https://georgegu1997.github.io/
-          - name: Gautham Narayan Narasimhan (MSME) -> CV / ML Engineer at Path Robotics
-            web_url: https://gauthamnarayan.com/
-          - name: Jianing (Aurora) Qian (MSR) -> U Penn PhD
-            web_url: https://www.ri.cmu.edu/ri-people/jianing-qian/
-          - name: Junyu (Jenny) Nan (MSR) -> CMU PhD
-            web_url: https://www.ri.cmu.edu/ri-people/junyu-nan/
-          - name: Mengyun (Olivia) Xu (MSCS) -> Amazon Robotics
-            web_url: https://www.linkedin.com/in/mengyun-olivia-xu-36a7ab126
-          - name: Edward Ahn (MSR) -> AI / ML Engineer at Apple
-            web_url: https://www.ri.cmu.edu/ri-people/edward-ahn/
-      - name: Visiting Reseachers
-        full: False
-        list:
-            - name: Bharath Hegde
-              web_url: https://bharath-hegde.github.io/
-            - name: Himangi Mittal -> CMU MSR
-              web_url: https://himangim.github.io/
-            - name: Jianren Wang -> CMU PhD
-            - name: Ziyu Wang
-      - name: Master's students (Capstone Project)
-        full: False
-        list:
-          - name: Yi Gu (MRSD)
-            web_url: https://www.ri.cmu.edu/ri-people/yi-gu/
-          - name: Arpit Jangid (MSCV)
-            web_url: https://www.ri.cmu.edu/ri-people/arpit-jangid/
-          - name: Ji Liu (MSCV)
-            web_url: https://www.ri.cmu.edu/ri-people/ji-liu/
-          - name: Zhenli Zhang (MSCV)
-            web_url: https://www.linkedin.com/in/zhenli-zhang-a36912126
-          - name: Xiaochen Han (MSCV)
-            web_url:
-          - name: Tanay Sharma (MSCV)
-            web_url:
-      - name: Undergraduate students
-        full: False
-        list:
-          - name: TJ Vitchutripop -> Yale PhD
-          - name: Yishu Li -> CMU MSR
-          - name: Angela Rodriguez-Izquierdo -> Princeton PhD
-          - name: Rashmi Anil
-          - name: Patrick Liu
-          - name: Jake Olkin
-          - name: Edward Li
-          - name: Wen Hui Leng -> CMU MS ECE
-          - name: Yiming Fang
-      - name: Interns
-        full: False
-        list:
-                   - name: Sreyas Venkataraman (RISS)
-                   - name: Chialiang Kuo 
-                   - name: Gunjan Sethi (MRSD) -> Raven Industries
-                   - name: Khush Agrawal (RISS)
-                   - name: Pengsheng Guo
-                   - name: Wen-Hsuan Chu
-                   - name: Akshay Dharmavaram
-                   - name: Yifan Qiao
-                   - name: Tiancheng Jin
-                   - name: Stephanie Milani
-                   - name: Shubham Sahoo
-                   - name: Rohan Chacko
-                   - name: Khush Agrawal (RISS)
-                   - name: Yimin Tang (RISS)
-                   - name: Ziwen (Leo) Zhuang (RISS)
-                   - name: Zhaoyuan (Andy) Fang
-                   - name: Yujie Lu
-                   - name: Amith Pallankize
-
+title: Lab members
+subtitle: 
 ---
 
-<div class="row">
-  {% for big_group in page.members %}
-    <h1> {{big_group.name}} </h1>
-    {% for group in big_group.list %}
-    {% if group.list.size > 0 %}
-      {% if group.name %}
-        <h2>{{ group.name }}</h2>
-      {% endif %}
-      {% if group.full %}
-      <div class="row member-row">
-        {% for member in group.list %}
-          <div class="col-xl-3 col-lg-3 col-md-3 text-center col-sm-6 col-xs-6 member-col">
-            <a target="_blank" href="{{ member.web_url }}">
-              <img class="img-responsive" src="{{ member.photo_url }}" alt="{{member.name}}">
-            </a>
-            <a target="_blank" href="{{ member.web_url }}">
-              {{ member.name }}
-            </a>
-          </div>
-        {% endfor %}
-      </div>
-      {% else %}
-        <ul>
-          {% for member in group.list %}
-            {% if member.web_url %}
-              <li><a href="{{member.web_url}}"> {{member.name}} </a></li>
-            {% else %}
-              <li><a> {{member.name}} </a></li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      {% endif %}
-    <br>
-    {% endif %}
-    {% endfor %}
-  {% endfor %}
+<style>
+.member-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.member-container {
+  margin-bottom: 30px;
+  height: 220px; /* Adjust this value as needed */
+}
+.member-name {
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+  width: 100%;
+}
+</style>
+
+### Faculty
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3 text-center member-container">
+      <img class="member-photo" src="/img/members/oliver_kroemer_.jpg" alt="Oliver Kroemer" />
+      <a class="member-name" href="https://www.ri.cmu.edu/ri-faculty/oliver-kroemer/">Oliver Kroemer</a>
+    </div>
+  </div>
 </div>
 
+### PhD Students
 
-<!-- <h3 id="undergraduate-students">Undergraduate students</h3>
-<ul>
-</ul>
-</div> -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3 text-center member-container">
+      <img class="member-photo" src="/img/members/kevin_zhang_.jpg" alt="Kevin Zhang" />
+      <a class="member-name" href="https://www.linkedin.com/in/shashwat-1singh/">Kevin Zhang</a>
+    </div>
+    <div class="col-md-3 text-center member-container">
+      <img class="member-photo" src="/img/members/saumya_saxena_.jpg" alt="Saumya Saxena" />
+      <a class="member-name" href="https://www.linkedin.com/in/shashwat-1singh/">Saumya Saxena</a>
+    </div>
+    <div class="col-md-3 text-center member-container">
+      <img class="member-photo" src="/img/members/alex_lagrassa_.jpg" alt="Alex Lagrassa" />
+      <a class="member-name" href="https://www.linkedin.com/in/shashwat-1singh/">Alex Lagrassa</a>
+    </div>
+    <div class="col-md-3 text-center member-container">
+      <img class="member-photo" src="/img/members/mark_lee_.jpg" alt="Mark Lee" />
+      <a class="member-name" href="https://si-lynnn.github.io/">Mark Lee</a>
+    </div>
+    <div class="col-md-3 text-center member-container">
+      <img class="member-photo" src="/img/members/yunus_seker.jpg" alt="Yunus Seker" />
+      <a class="member-name" href="https://si-lynnn.github.io/">Yunus Seker</a>
+    </div>
+    <div class="col-md-3 text-center member-container">
+      <img class="member-photo" src="/img/members/zilin_si_.jpg" alt="Zilin Si" />
+      <a class="member-name" href="https://si-lynnn.github.io/">Zilin Si</a>
+    </div>
+    <div class="col-md-3 text-center member-container">
+      <img class="member-photo" src="/img/members/sarvesh_.jpg" alt="Sarvesh Patil" />
+      <a class="member-name" href="https://servo97.github.io/">Sarvesh Patil</a>
+    </div>
+  </div>
+</div>
 
-<!-- <h2 id="collaborators">Collaborators</h2> -->
-<!-- <ul>
-  <li><a href="https://www.cs.cmu.edu/~astein/">Aaron Steinfeld</a></li>
-  <li><a href="https://www.cs.cmu.edu/~kkitani/">Kris Kitani</a></li>
-  <li><a href="http://www.lauravherlant.com/">Laura Herlant</a></li>
-</ul> -->
+### Master's Students
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3 text-center member-container">
+      <img class="member-photo" src="/img/members/xinyu_wang_.jpg" alt="Xinyu Wang" />
+      <a class="member-name" href="https://snibo.me">Xinyu Wang</a>
+    </div>
+    <div class="col-md-3 text-center member-container">
+      <img class="member-photo" src="/img/members/xinyu_wang_.jpg" alt="Janice Lee" />
+      <a class="member-name" href="https://snibo.me">Janice Lee</a>
+    </div>
+  </div>
+</div>
+
+### Undergraduate students
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3 text-center member-container">
+      <img class="member-photo" src="/img/members/xinyu_wang_.jpg" alt="Lawrence Feng" />
+      <a class="member-name" href="https://snibo.me">Lawrence Feng</a>
+    </div>
+  </div>
+</div>
+
+## Alumni
+
+- [Jacky Liang](http://www.edayaxin.com/) (Ph.D 2023, Google)
+- [Mohit Sharma](http://www.edayaxin.com/) (Ph.D 2024, Google)
+- [Shivam Vats](http://www.edayaxin.com/) (Ph.D 2024, Brown)
+- [Tabitha Lee](http://www.edayaxin.com/) (Ph.D 2024, Lockheed Martin)
+- [Eric Zhang](http://www.edayaxin.com/) (M.S 2022, UIUC)
+- [Fabian H](http://www.edayaxin.com/) (RISS intern 2024, University H.)
+
+
+<style>
+/* Added styles for the slideshow */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.slideshow-image.active {
+  display: block;
+  opacity: 1;
+}
+</style>
+
+## IAM Joyful Moments
+
+
+<div class="slideshow-container">
+  <img class="slideshow-image" src="/img/lab/lab_pic_11_16_2019.jpg" alt="Lab Photo 1">
+  <img class="slideshow-image" src="/img/lab/lab_pic_5_1_2019.jpg" alt="Lab Photo 2">
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const images = document.querySelectorAll('.slideshow-image');
+  let currentIndex = 0;
+
+  function nextSlide() {
+    images[currentIndex].classList.remove('active');
+    currentIndex = (currentIndex + 1) % images.length;
+    images[currentIndex].classList.add('active');
+  }
+
+  setInterval(nextSlide, 3000); // Change slide every 3 seconds
+});
+</script>
