@@ -1,6 +1,7 @@
 # Making changes to the website 
 1. ALL changes must be done through github via creating a new branch, making modifications, and then requesting a pull request. Admin will then verify locally and then merge the request. 
-1. There are 2 ways to make modifcations. One way is directly through the github page online, or the second way is to locally make changes on your local machine by installing Jekyll on Linux. Minor addition such as adding members photo or publications can be done online through github site without having to locally setup Jekyll. 
+1. There are 2 ways to make modifcations. One way is directly through the github page online, or the second way is to locally make changes on your local machine by installing Jekyll on Linux. Minor addition such as adding members photo or publications can be done online through github site without having to locally setup Jekyll.
+2. Make changes!
 
 
 ## (Online) Adding or updating the members page
