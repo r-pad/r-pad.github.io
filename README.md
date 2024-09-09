@@ -22,6 +22,7 @@
    3. Get the Bibtex from Google Scholar. 
    4. Embed the video link from youtube right click video, and paste the entire embedding info.
    5. You can ignore the tags. It existed for previous lab website to tag key research areas and publications together.
+5. Notify Mark Lee (MoonRobotics@cmu.edu) about the pull request.
 
 # (Locally) Setup Jekyll to make bigger changes to the website
 
