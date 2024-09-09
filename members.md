@@ -90,7 +90,7 @@ subtitle:
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="../img/members/xinyu_wang_.jpg" alt="Lawrence Feng" />
+      <img class="member-photo" src="../img/members/lawrence_feng.jpeg" alt="Lawrence Feng" />
       <a class="member-name" href="https://snibo.me">Lawrence Feng</a>
     </div>
   </div>
