@@ -1,4 +1,18 @@
-# Setup locally
+# Updating minor additions to the website (members and publications)
+1. ALL changes must be done through github via creating a new branch, making modifications, and then requesting a pull request. Admin will then verify locally and then merge the request. 
+1. Minor addition such as adding members photo or publications can be done online through github site without having to locally setup Jekyll. 
+
+## Adding or updating the members page
+1. Create a new branch with a short description of the change when starting out your work.
+1. Upload a SQUARE 1:1 ratio headshot photo under img/members directory directly through github website. It has to be a square photo or the circle headshot will become an awkward oval. Commit changes to upload.
+2. Add an entry to `members.md` directly through the github website -- navigate to the file and click edit file.
+   1. Copy paste an existing members item and update.
+   2. Commit changes.
+3. If you want to make changes to the slideshow of lab photos, update the bottom section of `members.md` and upload image under img/lab directory.
+3. Double check syntax and correct file directory, and then create a pull request to the `master` branch of `iamlab.github.io` and NOT `r-pad.github.io`.
+4. Notify Mark Lee (MoonRobotics@cmu.edu) about the pull request.
+
+# Setup Jekyll locally to make bigger changes to the website
 
 ## Setup and develop on Linux (Recommended)
 
@@ -25,7 +39,7 @@ Try the following
 docker run -d -p 4000:4000 -p 25003:25003 --name beautiful-jekyll -v "$(PWD):/srv/jekyll" beautiful-jekyll
 ```
 
-# Adding or updating a member
+# Adding or updating the members page
 1. First set up local development for Jekyll listed above.
 2. Add an entry to `members.md`.
    1. Copy paste an existing members item and update.
