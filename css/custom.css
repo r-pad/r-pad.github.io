@@ -7,7 +7,7 @@
 }
 
 .lab-photo {
-  background: url("img/iamlab_groupv2.png") no-repeat center center;
+  background: url("../img/iamlab_groupv2.png") no-repeat center center;
   background-size: cover;
   background-color: white;
   min-height: 550px;
