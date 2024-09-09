@@ -28,21 +28,20 @@ docker run -d -p 4000:4000 -p 25003:25003 --name beautiful-jekyll -v "$(PWD):/sr
 # Adding or updating a member
 1. First set up local development for Jekyll listed above.
 2. Add an entry to `members.md`.
-  1. Copy paste an existing members item and update.
-  2. Upload a SQUARE 1:1 ratio headshot photo under img/members directory. It has to be a square photo or the circle headshot will become an awkward oval.
+   1. Copy paste an existing members item and update.
+   2. Upload a SQUARE 1:1 ratio headshot photo under img/members directory. It has to be a square photo or the circle headshot will become an awkward oval.
 3. Check your changes running the server on your local machine and viewing the site at localhost:4000 .
 4. Commit and push your changes.
-
-1. If you want to make changes to the slideshow of lab photos, update the bottom section of `members.md` and upload image under img/lab directory.
+5. If you want to make changes to the slideshow of lab photos, update the bottom section of `members.md` and upload image under img/lab directory.
 
 # Adding a publication
 1. The publications page is updated by updating `_data/pubs.yaml file`. `The publication.md` reads the data from the yaml file and displays it.
 2. Add an entry to `_data/pubs.yaml file`.
-  1. Indentation matter in yml format, so pay careful attention to match the existing style EXACTLY. 
-  2. Upload the cover photo or gif of your research under `pics`.
-  3. Get the Bibtex from Google Scholar. 
-  4. Embed the video link from youtube right click video, and paste the entire embedding info.
-  5. You can ignore the tags. It existed for previous lab website to tag key research areas and publications together.
+   1. Indentation matter in yml format, so pay careful attention to match the existing style EXACTLY. 
+   2. Upload the cover photo or gif of your research under `pics`.
+   3. Get the Bibtex from Google Scholar. 
+   4. Embed the video link from youtube right click video, and paste the entire embedding info.
+   5. You can ignore the tags. It existed for previous lab website to tag key research areas and publications together.
 
 
 # For lab website maintainers
