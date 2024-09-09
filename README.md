@@ -1,9 +1,10 @@
-# Updating minor additions to the website (members and publications)
+# Making changes to the website 
 1. ALL changes must be done through github via creating a new branch, making modifications, and then requesting a pull request. Admin will then verify locally and then merge the request. 
-1. Minor addition such as adding members photo or publications can be done online through github site without having to locally setup Jekyll. 
+1. There are 2 ways to make modifcations. One way is directly through the github page online, or the second way is to locally make changes on your local machine by installing Jekyll on Linux. Minor addition such as adding members photo or publications can be done online through github site without having to locally setup Jekyll. 
 
-## Adding or updating the members page
-1. Create a new branch with a short description of the change when starting out your work.
+
+## (Online) Adding or updating the members page
+1. Create a new branch with a short description of the change when starting out your work. You can do so by clicking on `master` tab down button, click `view all branches`, and then click `new branch`.
 1. Upload a SQUARE 1:1 ratio headshot photo under img/members directory directly through github website. It has to be a square photo or the circle headshot will become an awkward oval. Commit changes to upload.
 2. Add an entry to `members.md` directly through the github website -- navigate to the file and click edit file.
    1. Copy paste an existing members item and update.
@@ -12,7 +13,17 @@
 3. Double check syntax and correct file directory, and then create a pull request to the `master` branch of `iamlab.github.io` and NOT `r-pad.github.io`.
 4. Notify Mark Lee (MoonRobotics@cmu.edu) about the pull request.
 
-# Setup Jekyll locally to make bigger changes to the website
+## (Online) Adding a publication
+1. If you haven't done so already, create a new branch with a short description of the change when starting out your work. You can do so by clicking on `master` tab down button, click `view all branches`, and then click `new branch`.
+2. Upload the cover photo or gif of your research under `pics`. Commite changes to upload.
+3. The publications page is updated by updating `_data/pubs.yaml file`. `The publication.md` reads the data from the yaml file and displays it.
+4. Add an entry to `_data/pubs.yaml file`.
+   1. Indentation matter in yml format, so pay careful attention to match the existing style EXACTLY. Especially when copying over Bibtex, make sure tab indentation is correctly aligned like existing items.
+   3. Get the Bibtex from Google Scholar. 
+   4. Embed the video link from youtube right click video, and paste the entire embedding info.
+   5. You can ignore the tags. It existed for previous lab website to tag key research areas and publications together.
+
+# (Locally) Setup Jekyll to make bigger changes to the website
 
 ## Setup and develop on Linux (Recommended)
 
@@ -39,7 +50,7 @@ Try the following
 docker run -d -p 4000:4000 -p 25003:25003 --name beautiful-jekyll -v "$(PWD):/srv/jekyll" beautiful-jekyll
 ```
 
-# Adding or updating the members page
+# (Locally) Adding or updating the members page
 1. First set up local development for Jekyll listed above.
 2. Add an entry to `members.md`.
    1. Copy paste an existing members item and update.
@@ -48,7 +59,7 @@ docker run -d -p 4000:4000 -p 25003:25003 --name beautiful-jekyll -v "$(PWD):/sr
 4. Commit and push your changes.
 5. If you want to make changes to the slideshow of lab photos, update the bottom section of `members.md` and upload image under img/lab directory.
 
-# Adding a publication
+# (Locally) Adding a publication
 1. The publications page is updated by updating `_data/pubs.yaml file`. `The publication.md` reads the data from the yaml file and displays it.
 2. Add an entry to `_data/pubs.yaml file`.
    1. Indentation matter in yml format, so pay careful attention to match the existing style EXACTLY. 
