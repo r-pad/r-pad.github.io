@@ -29,7 +29,7 @@ subtitle:
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="/img/members/oliver_kroemer_.jpg" alt="Oliver Kroemer" />
+      <img class="member-photo" src="img/members/oliver_kroemer_.jpg" alt="Oliver Kroemer" />
       <a class="member-name" href="https://www.ri.cmu.edu/ri-faculty/oliver-kroemer/">Oliver Kroemer</a>
     </div>
   </div>
@@ -40,31 +40,31 @@ subtitle:
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="/img/members/kevin_zhang_.jpg" alt="Kevin Zhang" />
+      <img class="member-photo" src="img/members/kevin_zhang_.jpg" alt="Kevin Zhang" />
       <a class="member-name" href="https://www.linkedin.com/in/shashwat-1singh/">Kevin Zhang</a>
     </div>
     <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="/img/members/saumya_saxena_.jpg" alt="Saumya Saxena" />
+      <img class="member-photo" src="img/members/saumya_saxena_.jpg" alt="Saumya Saxena" />
       <a class="member-name" href="https://www.linkedin.com/in/shashwat-1singh/">Saumya Saxena</a>
     </div>
     <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="/img/members/alex_lagrassa_.jpg" alt="Alex Lagrassa" />
+      <img class="member-photo" src="img/members/alex_lagrassa_.jpg" alt="Alex Lagrassa" />
       <a class="member-name" href="https://www.linkedin.com/in/shashwat-1singh/">Alex Lagrassa</a>
     </div>
     <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="/img/members/mark_lee_.jpg" alt="Mark Lee" />
+      <img class="member-photo" src="img/members/mark_lee_.jpg" alt="Mark Lee" />
       <a class="member-name" href="https://si-lynnn.github.io/">Mark Lee</a>
     </div>
     <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="/img/members/yunus_seker.jpg" alt="Yunus Seker" />
+      <img class="member-photo" src="img/members/yunus_seker.jpg" alt="Yunus Seker" />
       <a class="member-name" href="https://si-lynnn.github.io/">Yunus Seker</a>
     </div>
     <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="/img/members/zilin_si_.jpg" alt="Zilin Si" />
+      <img class="member-photo" src="img/members/zilin_si_.jpg" alt="Zilin Si" />
       <a class="member-name" href="https://si-lynnn.github.io/">Zilin Si</a>
     </div>
     <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="/img/members/sarvesh_.jpg" alt="Sarvesh Patil" />
+      <img class="member-photo" src="img/members/sarvesh_.jpg" alt="Sarvesh Patil" />
       <a class="member-name" href="https://servo97.github.io/">Sarvesh Patil</a>
     </div>
   </div>
@@ -75,11 +75,11 @@ subtitle:
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="/img/members/xinyu_wang_.jpg" alt="Xinyu Wang" />
+      <img class="member-photo" src="img/members/xinyu_wang_.jpg" alt="Xinyu Wang" />
       <a class="member-name" href="https://snibo.me">Xinyu Wang</a>
     </div>
     <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="/img/members/xinyu_wang_.jpg" alt="Janice Lee" />
+      <img class="member-photo" src="img/members/xinyu_wang_.jpg" alt="Janice Lee" />
       <a class="member-name" href="https://snibo.me">Janice Lee</a>
     </div>
   </div>
@@ -90,7 +90,7 @@ subtitle:
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="/img/members/xinyu_wang_.jpg" alt="Lawrence Feng" />
+      <img class="member-photo" src="img/members/xinyu_wang_.jpg" alt="Lawrence Feng" />
       <a class="member-name" href="https://snibo.me">Lawrence Feng</a>
     </div>
   </div>
@@ -131,8 +131,8 @@ subtitle:
 
 
 <div class="slideshow-container">
-  <img class="slideshow-image" src="/img/lab/lab_pic_11_16_2019.jpg" alt="Lab Photo 1">
-  <img class="slideshow-image" src="/img/lab/lab_pic_5_1_2019.jpg" alt="Lab Photo 2">
+  <img class="slideshow-image" src="img/lab/lab_pic_11_16_2019.jpg" alt="Lab Photo 1">
+  <img class="slideshow-image" src="img/lab/lab_pic_5_1_2019.jpg" alt="Lab Photo 2">
 </div>
 
 <script>
