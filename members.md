@@ -79,7 +79,7 @@ subtitle:
       <a class="member-name" href="https://snibo.me">Xinyu Wang</a>
     </div>
     <div class="col-md-3 text-center member-container">
-      <img class="member-photo" src="../img/members/xinyu_wang_.jpg" alt="Janice Lee" />
+      <img class="member-photo" src="../img/members/janice_lee.png" alt="Janice Lee" />
       <a class="member-name" href="https://snibo.me">Janice Lee</a>
     </div>
   </div>
@@ -102,9 +102,12 @@ subtitle:
 - [Mohit Sharma](http://www.edayaxin.com/) (Ph.D 2024, Google)
 - [Shivam Vats](http://www.edayaxin.com/) (Ph.D 2024, Brown)
 - [Tabitha Lee](http://www.edayaxin.com/) (Ph.D 2024, Lockheed Martin)
+<hr>
 - [Eric Zhang](http://www.edayaxin.com/) (M.S 2022, UIUC)
+- [Eric Zhang](http://www.edayaxin.com/) (M.S 2022, UIUC)
+<hr>
 - [Fabian H](http://www.edayaxin.com/) (RISS intern 2024, University H.)
-
+- [Fabian H](http://www.edayaxin.com/) (RISS intern 2024, University H.)
 
 <style>
 /* Added styles for the slideshow */
@@ -127,7 +130,7 @@ subtitle:
 }
 </style>
 
-## IAM Joyful Moments
+## Some IAM Joyful Moments
 
 
 <div class="slideshow-container">

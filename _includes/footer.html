@@ -6,7 +6,7 @@
           <img src="/img/iam_lab_website_banner_sm.png" alt="Lab logo" class="iam-lab-logo">
         </div>
       </div>
-      <div class="col-lg-8">
+      <div class="col-lg-6">
         <ul class="list-inline text-center footer-links">
           {%- for link in site.social-network-links -%}
             {%- assign curkey = link[0] -%}
@@ -51,8 +51,11 @@
           <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
         </p>
       </div>
-      <div class="footer-logo col-lg-2">
-        <img src="/img/cmu-wordmark-stacked-r.png" alt="CMU logo" class="cmu-logo">
+      <div class="footer-logo col-lg-4" style="display: flex; justify-content: flex-end; align-items: center;">
+        <div class="right-logos-container" style="display: flex; align-items: center;">
+          <img src="/img/cmu-wordmark-stacked-r.png" alt="CMU logo" class="cmu-logo" style="max-width: 80px; height: auto; margin-right: 10px;">
+          <img src="/img/ri_cmu_logo.png" alt="RI CMU logo" class="ri-cmu-logo" style="max-width: 240px; height: auto;">
+        </div>
       </div>
     </div>
   </div>
