@@ -17,8 +17,8 @@
 
 
 - abs: "Dexterous robotic manipulation remains a challenging domain due to its strict demands for precision and robustness on both hardware and software. While dexterous robotic hands have demonstrated remarkable capabilities in complex tasks, efficiently learning adaptive control policies for hands still presents a significant hurdle given the high dimensionalities of hands and tasks. To bridge this gap, we propose Tilde, an imitation learning-based in-hand manipulation system on a dexterous DeltaHand. It leverages 1) a low-cost, configurable, simple-to-control, soft dexterous robotic hand, DeltaHand, 2) a user-friendly, precise, real-time teleoperation interface, TeleHand, and 3) an efficient and generalizable imitation learning approach with diffusion policies. Our proposed TeleHand has a kinematic twin design to the DeltaHand that enables precise one-to-one joint control of the DeltaHand during teleoperation. This facilitates efficient high-quality data collection of human demonstrations in the real world. To evaluate the effectiveness of our system, we demonstrate the fully autonomous closed-loop deployment of diffusion policies learned from demonstrations across seven dexterous manipulation tasks with an average 90% success rate."
-  authors: Zilin Si, Kevin Lee Zhang, Zeynep Temel, Oliver Kroemer
-  award: null
+  authors: Zilin Si*, Kevin Lee Zhang*, Zeynep Temel, Oliver Kroemer
+  award: Best paper award @ 2nd Workshop on Dexterous Manipulation: Design, Perception and Control, RSS 2024
   bib: >
     @inproceedings{si2024tilde,
     title={Tilde: Teleoperation for Dexterous In-Hand Manipulation Learning with a DeltaHand},
@@ -30,10 +30,10 @@
   links: 
       '[arXiv]': https://arxiv.org/pdf/2405.18804
   short_id: tilde2024
-  site: https://sites.google.com/view/toolgen
+  site: https://sites.google.com/view/tilde-
   title: "Tilde: Teleoperation for Dexterous In-Hand Manipulation Learning with a DeltaHand"
   venue: "Robotics, Science, and Systems (RSS), 2024"
-  video_embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/iheVOX8jG_8" title="Learning Generalizable Tool-use Skills through Trajectory Generation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  video_embed: null
   tags: null
 
 - abs: "There is growing interest in automating agricultural tasks that require intricate and precise interaction with specialty crops, such as trees and vines. However, developing robotic solutions for crop manipulation remains a difficult challenge due to complexities involved in modeling their deformable behavior. In this study, we present a framework for learning the deformation behavior of tree-like crops under contact interaction. Our proposed method involves encoding the state of a spring-damper modeled tree crop as a graph. This representation allows us to employ graph networks to learn both a forward model for predicting resulting deformations, and a contact policy for inferring actions to manipulate tree crops. We conduct a comprehensive set of experiments in a simulated environment and demonstrate generalizability of our method on previously unseen trees."
@@ -97,6 +97,25 @@
   title: "Open X-Embodiment: Robotic Learning Datasets and RT-X Models"
   venue: "International Conference on Robotics and Automation (ICRA), 2024"
   video_embed: null
-  tags: null
+
+- abs: "Dexterous robotic manipulation in unstructured environments can aid in everyday tasks such as cleaning and caretaking. Anthropomorphic robotic hands are highly dexterous and theoretically well-suited for working in human domains, but their complex designs and dynamics often make them difficult to control. By contrast, parallel-jaw grippers are easy to control and are used extensively in industrial applications, but they lack the dexterity for various kinds of grasps and in-hand manipulations. In this work, we present DELTAHANDS, a synergistic dexterous hand framework with Delta robots. The DELTAHANDS are soft, easy to reconfigure, simple to manufacture with low-cost off-the-shelf materials, and possess high degrees of freedom that can be easily controlled. DELTAHANDS' dexterity can be adjusted for different applications by leveraging actuation synergies, which can further reduce the control complexity, overall cost, and energy consumption. We characterize the Delta robots' kinematics accuracy, force profiles, and workspace range to assist with hand design. Finally, we evaluate the versatility of DELTAHANDS by grasping a diverse set of objects and by using teleoperation to complete three dexterous manipulation tasks: cloth folding, cap opening, and cable arrangement."
+  authors: Zilin Si, Kevin Lee Zhang, Oliver Kroemer, Zeynep Temel
+  award: null
+  bib: >
+    @article{si2024deltahands,
+      title={DELTAHANDS: A Synergistic Dexterous Hand Framework Based on Delta Robots},
+      author={Si, Zilin and Zhang, Kevin and Kroemer, Oliver and Temel, F Zeynep},
+      journal={IEEE Robotics and Automation Letters},
+      year={2024},
+      publisher={IEEE}
+    }
+  img: ../pics/deltahand.png
+  links: 
+      '[arXiv]': https://arxiv.org/pdf/2310.05266
+  short_id: deltahand2024
+  site: https://sites.google.com/view/deltahands/
+  title: "DELTAHANDS: A Synergistic Dexterous Hand Framework Based on Delta Robots"
+  venue: "IEEE Robotics and Automation Letters, 2024"
+  video_embed: null
 
   
