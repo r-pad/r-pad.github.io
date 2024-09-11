@@ -109,7 +109,7 @@
       year={2024},
       publisher={IEEE}
     }
-  img: ../pics/deltahand.png
+  img: ../pics/DeltaHands.png
   links: 
       '[arXiv]': https://arxiv.org/pdf/2310.05266
   short_id: deltahand2024
