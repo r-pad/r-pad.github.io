@@ -78,6 +78,9 @@ members:
       - name: Undergraduate Students
         full: true
         list:
+          - name: Daniel Guo
+            photo_url: /img/members/danielguo.png
+            web_url: https://www.linkedin.com/in/dlcguo/
       - name: Visiting Students
         full: true
         list:
