@@ -64,18 +64,27 @@
   video_embed: null
   tags: null
 
-- abs: null
-  authors: Kallol Saha*, Amber Li*, Angela Rodriguez-Izquierdo, Lifan Yu, Ben Eisner, Maxim Likhachev, David Held
+- abs: "Long-horizon planning for robot manipulation is a challenging problem that requires reasoning about the effects of a sequence of actions on a physical 3D scene. While traditional task planning methods are shown to be effective for long-horizon manipulation, they require discretizing the continuous state and action space into symbolic descriptions of objects, object relationships, and actions. Instead, we propose a hybrid learning-and-planning approach that leverages learned models as domain-specific priors to guide search in high-dimensional continuous action spaces. We introduce SPOT: Search over Point cloud Object Transformations, which plans by searching for a sequence of transformations from an initial scene point cloud to a goal-satisfying point cloud. SPOT samples candidate actions from learned suggesters that operate on partially observed point clouds, eliminating the need to discretize actions or object relationships. We evaluate SPOT on multi-object rearrangement tasks, reporting task planning success and task execution success in both simulation and real-world environments. Our experiments show that SPOT generates successful plans and outperforms a policy-learning approach. We also perform ablations that highlight the importance of search-based planning."
+  authors: Kallol Saha*, Amber Li*, Angela Rodriguez-Izquierdo*, Lifan Yu, Ben Eisner, Maxim Likhachev, David Held
   award: <award>Oral Presentation</award>  (Selection rate 5.7%)
-  bib: null
-  img: ''
-  links: {}
+  bib: >
+    @inproceedings{saha2025planning,
+      title={Planning from Point Clouds over Continuous Actions for Multi-object Rearrangement},
+      author={Saha, Kallol and Li, Amber and Rodriguez-Izquierdo, Angela and Yu, Lifan and Eisner, Ben and Likhachev, Maxim and Held, David},
+      booktitle={Conference on Robot Learning (CoRL)},
+      year={2025}
+    }
+  img: '../pics/SPOT_short_teaser.gif'
+  links:  
+      '[arXiv]': https://planning-from-point-clouds.github.io/
+      '[Code]': https://github.com/kallol-saha/SPOT
   short_id: saha2025planning
-  site: null
+  site: https://planning-from-point-clouds.github.io/
   title: "Planning from Point Clouds over Continuous Actions for Multi-object Rearrangement"
   venue: Conference on Robot Learning (CoRL), 2025
   video_embed: null
-  tags: null
+  tags:  
+      - affordance
 
 - abs: null
   authors: Alexis Yihong Hao, Yufei Wang, Navin Sriram Ravie, Bharath Hegde, David Held&dagger;, Zackory Erickson&dagger;
