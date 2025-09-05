@@ -103,7 +103,7 @@ members:
         full: False
         list:
           - name: Eric Cai (MSR) -> UW PhD
-            web_url: https://www.ri.cmu.edu/ri-people/ericcai/
+            web_url: https://ey-cai.github.io/
           - name: Octavian Donca (MSR) -> Skild AI
             web_url: https://www.ri.cmu.edu/ri-people/octavian-donca/
           - name: Pranay Gupta (MSR) -> CMU PhD
