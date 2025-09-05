@@ -21,9 +21,6 @@ members:
       - name: PhD Students
         full: true
         list:
-          - name: Ben Eisner
-            photo_url: https://www.ri.cmu.edu/wp-content/uploads/2020/07/Eisner_Benjamin_2020.png
-            web_url: http://beisner.me/
           - name: Yufei Wang<br>(co-advised with Zackory Erickson)
             photo_url: https://yufeiwang63.github.io/img/1inch_yufeiwang.jpg
             web_url: https://yufeiwang63.github.io/
@@ -89,6 +86,9 @@ members:
       - name: PhD alumni
         full: False
         list:
+          - name: Ben Eisner
+            photo_url: https://www.ri.cmu.edu/wp-content/uploads/2020/07/Eisner_Benjamin_2020.png
+            web_url: http://beisner.me/
           - name: Wenxuan Zhou -> Research Scientist at Meta
             web_url: https://wenxuan-zhou.github.io/
           - name: Thomas Weng -> Boston Dynamics AI Institute -> AI Institute
