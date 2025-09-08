@@ -76,7 +76,7 @@
     }
   img: '../pics/SPOT_short_teaser.gif'
   links:  
-      '[arXiv]': https://planning-from-point-clouds.github.io/
+      '[arXiv]': https://arxiv.org/abs/2509.04645
       '[Code]': https://github.com/kallol-saha/SPOT
   short_id: saha2025planning
   site: https://planning-from-point-clouds.github.io/
