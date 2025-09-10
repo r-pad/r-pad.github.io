@@ -82,7 +82,7 @@
   site: https://planning-from-point-clouds.github.io/
   title: "Planning from Point Clouds over Continuous Actions for Multi-object Rearrangement"
   venue: Conference on Robot Learning (CoRL), 2025
-  video_embed: null
+  video_embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/iofUJtJoWG0?si=KGMdJ51zV9RHCTEv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   tags:  
       - affordance
 
