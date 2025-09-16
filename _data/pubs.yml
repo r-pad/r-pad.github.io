@@ -86,18 +86,20 @@
   tags:  
       - affordance
 
-- abs: null
+- abs: "Robot-assisted dressing has the potential to significantly improve the lives of individuals with mobility impairments. To ensure an effective and comfortable dressing experience, the robot must be able to handle challenging deformable garments, apply appropriate forces, and adapt to limb movements throughout the dressing process. Prior work often makes simplifying assumptions—such as static human limbs during dressing—which limits real-world applicability. In this work, we develop a robot-assisted dressing system capable of handling partial observations with visual occlusions, as well as robustly adapting to arm motions during the dressing process. Given a policy trained in simulation with partial observations, we propose a method to fine-tune it in the real world using a small amount of data and multi-modal feedback from vision and force sensing, to further improve the policy's adaptability to arm motions and enhance safety. We evaluate our method in simulation with simplified articulated human meshes and in a real world human study with 12 participants across 264 dressing trials. Our policy successfully dresses two long-sleeve everyday garments onto the participants while being adaptive to various kinds of arm motions, and greatly outperforms prior baselines in terms of task completion and user feedback."
   authors: Alexis Yihong Hao, Yufei Wang, Navin Sriram Ravie, Bharath Hegde, David Held&dagger;, Zackory Erickson&dagger;
   award: null
   bib: null
-  img: ''
+  img: ../pics/FMVP-CoRL2025.gif
   links: {}
   short_id: hao2025dressing
-  site: null
-  title: "Multi-Modal Fine-Tuning for Robot-Assisted Dressing with Arm Motions"
+  site: https://dressing-motion.github.io/
+  title: "Force-Modulated Visual Policy for Robot-Assisted Dressing with Arm Motions"
   venue: Conference on Robot Learning (CoRL), 2025
   video_embed: null
-  tags: null
+  tags:     
+      - deformable
+      - multimodal
 
 - abs: "This paper presents ArticuBot, in which a single learned policy enables a robotics system to open diverse categories of unseen articulated objects in the real world. This task has long been challenging for robotics due to the large variations in the geometry, size, and articulation types of such objects. Our system, Articubot, consists of three parts: generating a large number of demonstrations in physics-based simulation, distilling all generated demonstrations into a point cloud-based neural policy via imitation learning, and performing zero-shot sim2real transfer to real robotics systems. Utilizing sampling-based grasping and motion planning, our demonstration generalization pipeline is fast and effective, generating a total of 42.3k demonstrations over 322 training articulated objects. For policy learning, we propose a novel hierarchical policy representation, in which the high-level policy learns the sub-goal for the end-effector, and the low-level policy learns how to move the end-effector conditioned on the predicted goal. We demonstrate that this hierarchical approach achieves much better object-level generalization compared to the non-hierarchical version. We further propose a novel weighted displacement model for the high-level policy that grounds the prediction into the existing 3D structure of the scene, outperforming alternative policy representations. We show that our learned policy can zero-shot transfer to three different real robot settings: a fixed table-top Franka arm across two different labs, and an X-Arm on a mobile base, opening multiple unseen articulated objects across two labs, real lounges, and kitchens."
   authors: Yufei Wang*, Ziyu Wang*, Mino Nakura&dagger;, Pratik Bhowal&dagger;, Chia-Liang Kuo&dagger;, Yi-Ting Chen, Zackory Erickson&Dagger;, David Held&Dagger;
