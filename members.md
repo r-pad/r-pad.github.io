@@ -44,7 +44,7 @@ members:
             web_url: https://www.ri.cmu.edu/ri-people/yishu-li/
           - name: Alexis Hao (MSR)
             photo_url: /img/members/alexis.jpg
-            web_url: hhttps://www.ri.cmu.edu/ri-people/vivian-hao/
+            web_url: https://hyhalexis.github.io/
           - name: Mino Nakura (MSR)
             photo_url: /img/members/mino.jpg
             web_url: https://www.ri.cmu.edu/ri-people/maxwell-mino-nakura-fan/
