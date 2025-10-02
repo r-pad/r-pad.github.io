@@ -73,6 +73,9 @@ members:
           - name: Daniel Guo
             photo_url: /img/members/danielguo.png
             web_url: https://www.linkedin.com/in/dlcguo/
+          - name: Alex Jimenez Sanso
+            photo_url: https://www.ri.cmu.edu/app/uploads/2025/09/jimenez_alex_ri_website-338x450.jpg
+            web_url: https://www.linkedin.com/in/alex-jimenez-sanso/
       - name: Visiting Students
         full: true
         list:
