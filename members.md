@@ -66,6 +66,9 @@ members:
           - name: Yinong He (MSR)
             photo_url: /img/members/yinong.jpg
             web_url: https://hyn-kulu.github.io/
+          - name: Liyuan Geng (MSR)
+            photo_url: /img/members/liyuan.jpg
+            web_url: https://www.linkedin.com/in/liyuan-geng-120a65238/
 
       - name: Undergraduate Students
         full: true
