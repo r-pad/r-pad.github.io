@@ -66,6 +66,9 @@ members:
           - name: Yinong He (MSR)
             photo_url: /img/members/yinong.jpg
             web_url: https://hyn-kulu.github.io/
+          - name: Madhavan Iyengar (MSR)
+            photo_url: /img/members/madhavan.jpg
+            web_url: https://madhavaniyengar.github.io/
 
       - name: Undergraduate Students
         full: true
