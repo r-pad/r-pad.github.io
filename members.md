@@ -41,7 +41,7 @@ members:
             web_url: https://sriramsk1999.github.io/
           - name: Yishu Li (MSR)
             photo_url: /img/members/yishu.jpg
-            web_url: https://www.ri.cmu.edu/ri-people/yishu-li/
+            web_url: https://liy1shu.github.io/
           - name: Alexis Hao (MSR)
             photo_url: /img/members/alexis.jpg
             web_url: https://hyhalexis.github.io/
@@ -69,6 +69,9 @@ members:
           - name: Madhavan Iyengar (MSR)
             photo_url: /img/members/madhavan.jpg
             web_url: https://madhavaniyengar.github.io/
+          - name: Liyuan Geng (MSR)
+            photo_url: /img/members/liyuan.jpg
+            web_url: https://www.linkedin.com/in/liyuan-geng-120a65238/
 
       - name: Undergraduate Students
         full: true
