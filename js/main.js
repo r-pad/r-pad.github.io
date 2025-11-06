@@ -83,6 +83,7 @@ var main = {
     
     var currentSlide = 0;
     var slideInterval;
+    var SLIDE_INTERVAL = 5000; // Time in milliseconds - change this value to adjust how long photos stay on
     
     function showSlide(index) {
       slides.removeClass('active');
@@ -94,13 +95,38 @@ var main = {
       showSlide(currentSlide);
     }
     
+    function prevSlide() {
+      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+      showSlide(currentSlide);
+    }
+    
+    function resetInterval() {
+      if (slideInterval) {
+        clearInterval(slideInterval);
+      }
+      if (slides.length > 1) {
+        slideInterval = setInterval(nextSlide, SLIDE_INTERVAL);
+      }
+    }
+    
     // Make sure only the first slide is visible initially
     slides.removeClass('active');
     $(slides[0]).addClass('active');
     
+    // Add click handlers for navigation arrows
+    $('.slider-arrow-left').on('click', function() {
+      prevSlide();
+      resetInterval();
+    });
+    
+    $('.slider-arrow-right').on('click', function() {
+      nextSlide();
+      resetInterval();
+    });
+    
     // Start the slider if there are multiple slides
     if (slides.length > 1) {
-      slideInterval = setInterval(nextSlide, 4000); // Change slide every 4 seconds
+      slideInterval = setInterval(nextSlide, SLIDE_INTERVAL);
     }
   },
 
