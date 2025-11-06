@@ -48,3 +48,21 @@ learning algorithms to more effectively learn from data."
     </table>
     </div>
 </details>
+
+## Autonomous Driving
+
+In the domain of autonomous driving, we have developed novel methods for segmentation, object detection, tracking, and velocity estimation.
+
+<details>
+<summary style="display: list-item;"><b>Relevant Publications</b></summary>
+<div>
+    <table cellpadding="10" width="100%">
+        {% assign pubs = site.data.pubs | where: 'tags', 'autonomous-driving' %}
+        {% for pub in pubs %}
+            {% include pub.html %}
+        {% endfor %}
+    </table>
+    </div>
+</details>
+
+

@@ -16,10 +16,6 @@
   blurb: "Robots should use all of the sensors available to them, such as depth, RGB, and tactile data.  
   We have developed methods to intelligently integrate these sensor modalities."
   tag: multimodal
-- title: Autonomous Driving
-  blurb: "In the domain of autonomous driving, we have developed novel methods for every part of the perception 
-  pipeline: segmentation, object detection, tracking, and velocity estimation."
-  tag: autonomous-driving
 - title: Active Perception
   blurb: "Rather than statically observing a scene, robots can take actions to enable them to better perceive 
   a scene, known as “active perception.”"
