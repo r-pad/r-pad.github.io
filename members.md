@@ -21,9 +21,6 @@ members:
       - name: PhD Students
         full: true
         list:
-          - name: Ben Eisner
-            photo_url: https://www.ri.cmu.edu/wp-content/uploads/2020/07/Eisner_Benjamin_2020.png
-            web_url: http://beisner.me/
           - name: Yufei Wang<br>(co-advised with Zackory Erickson)
             photo_url: https://yufeiwang63.github.io/img/1inch_yufeiwang.jpg
             web_url: https://yufeiwang63.github.io/
@@ -36,9 +33,6 @@ members:
       - name: Masters Students
         full: true
         list:
-          - name: Eric Cai (MSR)
-            photo_url: /img/members/ericcai.jpg
-            web_url: https://www.ri.cmu.edu/ri-people/ericcai/
           - name: Kallol Saha (MSR)
             photo_url: /img/members/kallol.jpg
             web_url: https://kallol-saha.github.io/
@@ -47,10 +41,10 @@ members:
             web_url: https://sriramsk1999.github.io/
           - name: Yishu Li (MSR)
             photo_url: /img/members/yishu.jpg
-            web_url: https://www.ri.cmu.edu/ri-people/yishu-li/
+            web_url: https://liy1shu.github.io/
           - name: Alexis Hao (MSR)
             photo_url: /img/members/alexis.jpg
-            web_url: hhttps://www.ri.cmu.edu/ri-people/vivian-hao/
+            web_url: https://hyhalexis.github.io/
           - name: Mino Nakura (MSR)
             photo_url: /img/members/mino.jpg
             web_url: https://www.ri.cmu.edu/ri-people/maxwell-mino-nakura-fan/
@@ -66,12 +60,28 @@ members:
           - name: Pratik Bhowal (MSR)
             photo_url: /img/members/pratik.jpg
             web_url: https://www.linkedin.com/in/pratik-bhowal-1066aa198/ 
+          - name: Vera Xiao (MSR)
+            photo_url: /img/members/vxiao.jpg
+            web_url: https://xiaochy.github.io/
+          - name: Yinong He (MSR)
+            photo_url: /img/members/yinong.jpg
+            web_url: https://hyn-kulu.github.io/
+          - name: Madhavan Iyengar (MSR)
+            photo_url: /img/members/madhavan.jpg
+            web_url: https://madhavaniyengar.github.io/
+          - name: Liyuan Geng (MSR)
+            photo_url: /img/members/liyuan.jpg
+            web_url: https://www.linkedin.com/in/liyuan-geng-120a65238/
+
       - name: Undergraduate Students
         full: true
         list:
           - name: Daniel Guo
             photo_url: /img/members/danielguo.png
             web_url: https://www.linkedin.com/in/dlcguo/
+          - name: Alex Jimenez Sanso
+            photo_url: https://www.ri.cmu.edu/app/uploads/2025/09/jimenez_alex_ri_website-338x450.jpg
+            web_url: https://www.linkedin.com/in/alex-jimenez-sanso/
       - name: Visiting Students
         full: true
         list:
@@ -85,6 +95,9 @@ members:
       - name: PhD alumni
         full: False
         list:
+          - name: Ben Eisner
+            photo_url: https://www.ri.cmu.edu/wp-content/uploads/2020/07/Eisner_Benjamin_2020.png
+            web_url: http://beisner.me/
           - name: Wenxuan Zhou -> Research Scientist at Meta
             web_url: https://wenxuan-zhou.github.io/
           - name: Thomas Weng -> Boston Dynamics AI Institute -> AI Institute
@@ -98,6 +111,8 @@ members:
       - name: Master's students (Research Master's)
         full: False
         list:
+          - name: Eric Cai (MSR) -> UW PhD
+            web_url: https://ey-cai.github.io/
           - name: Octavian Donca (MSR) -> Skild AI
             web_url: https://www.ri.cmu.edu/ri-people/octavian-donca/
           - name: Pranay Gupta (MSR) -> CMU PhD

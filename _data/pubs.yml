@@ -15,57 +15,119 @@
 # Current tags for research areas, see the research areas page for more details:
 # deform_obj_manip, 3D_afford_obj_manip, multimodal, rl_algs, auto_driving, active_perception, self_sup_rob
 
-- abs: null
-  authors: Divyam Goel, Yufei Wang, Tiancheng Wu, Helen Qiao, Pavel Piliptchak, David Held&dagger;, Zackory Erickson&dagger;
+
+- abs: "Offline reinforcement learning can enable policy learning from pre-collected, sub-optimal datasets without online interactions. This makes it ideal for real-world robots and safety-critical scenarios, where collecting online data or expert demonstrations is slow, costly, and risky. However, most existing offline RL works assume the dataset is already labeled with the task rewards, a process that often requires significant human effort, especially when ground-truth states are hard to ascertain (e.g., in the real-world). In this paper, we build on prior work, specifically RL-VLM-F, and propose a novel system that automatically generates reward labels for offline datasets using preference feedback from a vision-language model and a text description of the task. Our method then learns a policy using offline RL with the reward-labeled dataset. We demonstrate the system’s applicability to a complex real-world robot-assisted dressing task, where we first learn a reward function using a vision-language model on a sub-optimal offline dataset, and then we use the learned reward to employ Implicit Q learning to develop an effective dressing policy. Our method also performs well in simulation tasks involving the manipulation of rigid and deformable objects, and significantly outperform baselines such as behavior cloning and inverse RL. In summary, we propose a new system that enables automatic reward labeling and policy learning from unlabeled, sub-optimal offline datasets."
+  authors: Sreyas Venkataraman*, Yufei Wang*, Ziyu Wang, Navin Sriram Ravie, Zackory Erickson&dagger;, David Held&dagger;
   award: null
-  bib: null
-  img: ''
-  links: {}
+  bib: >
+    @misc{venkataraman2024realworldofflinereinforcementlearning,
+      title={Real-World Offline Reinforcement Learning from Vision Language Model Feedback}, 
+      author={Sreyas Venkataraman and Yufei Wang and Ziyu Wang and Zackory Erickson and David Held},
+      year={2024},
+      eprint={2411.05273},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2411.05273}, 
+    }
+  img: ../pics/offline_rlvlmf.gif
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2411.05273
+  short_id: venkataraman2024offlinerlvlmf
+  site: https://offline-rlvlmf.github.io/
+  title: "Real-World Offline Reinforcement Learning from Vision Language Model Feedback "
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025"
+  video_embed: null
+
+- abs: Standard evaluation protocols in robotic manipulation typically assess policy performance over curated, in-distribution test sets, offering limited insight into how systems fail under plausible variation. We introduce Geometric Red-Teaming (GRT), a red-teaming framework that probes robustness through object-centric geometric perturbations, automatically generating CrashShapes -- structurally valid, user-constrained mesh deformations that trigger catastrophic failures in pre-trained manipulation policies. The method integrates a Jacobian field-based deformation model with a gradient-free, simulator-in-the-loop optimization strategy. Across insertion, articulation, and grasping tasks, GRT consistently discovers deformations that collapse policy performance, revealing brittle failure modes missed by static benchmarks. By combining task-level policy rollouts with constraint-aware shape exploration, we aim to build a general purpose framework for structured, object-centric robustness evaluation in robotic manipulation. We additionally show that fine-tuning on individual CrashShapes, a process we refer to as blue-teaming, improves task success by up to 60 percentage points on those shapes, while preserving performance on the original object, demonstrating the utility of red-teamed geometries for targeted policy refinement. Finally, we validate both red-teaming and blue-teaming results with a real robotic arm, observing that simulated CrashShapes reduce task success from 90% to as low as 22.5%, and that blue-teaming recovers performance to up to 90% on the corresponding real-world geometry -- closely matching simulation outcomes.
+  authors: Divyam Goel, Yufei Wang, Tiancheng Wu, Helen Qiao, Pavel Piliptchak, David Held&dagger;, Zackory Erickson&dagger;
+  award: <award>Oral Presentation</award>  (Selection rate 5.7%)
+  bib: >
+    @misc{goel2025geometricredteamingroboticmanipulation,
+      title={Geometric Red-Teaming for Robotic Manipulation}, 
+      author={Divyam Goel and Yufei Wang and Tiancheng Wu and Guixiu Qiao and Pavel Piliptchak and David Held and Zackory Erickson},
+      year={2025},
+      eprint={2509.12379},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2509.12379}, 
+    }
+  img: ../pics/corl2025_grt.gif
+  links:
+      '[arXiv]': https://arxiv.org/abs/2509.12379
+      '[Code]': https://github.com/RCHI-Lab/GRT.git
   short_id: goel2025geometric
-  site: null
+  site: https://georedteam.github.io/
   title: "Geometric Red-Teaming for Robotic Manipulation"
   venue: Conference on Robot Learning (CoRL), 2025
   video_embed: null
   tags: null
 
-- abs: null
+- abs: "We introduce a novel History-Aware Verifier (HAVE) to solve ambiguous manipulation tasks. Our method works by decoupling action generation from verification: it first proposes multiple candidate actions and then uses the verifier to select the most promising one by reasoning about past interactions. We theoretically and practically proved that the verifier improves the expected performance."
   authors: Yishu Li, Xinyi Mao, Ying Yuan, Kyutae Sim, Ben Eisner, David Held
   award: null
-  bib: null
-  img: ''
-  links: {}
+  bib: >
+    @inproceedings{li2025have,
+      title={Learn from What We HAVE: History-Aware VErifier that Reasons about Past Interactions Online},
+      author={Li, Yishu and Mao, Xinyi and Yuan, Ying and Sim, Kyutae and Eisner, Ben and Held, David},
+      booktitle={Conference on Robot Learning (CoRL)},
+      year={2025}
+    }
+  img: '../pics/have_corl25.gif'
+  links:
+      '[arXiv]': https://arxiv.org/abs/2509.00271
+      '[Code]': https://github.com/liy1shu/HAVE_CoRL25.git
   short_id: li2025have
-  site: null
+  site: https://liy1shu.github.io/HAVE_CoRL25/
   title: "Learn from What We HAVE: History-Aware VErifier that Reasons about Past Interactions Online"
   venue: Conference on Robot Learning (CoRL), 2025
-  video_embed: null
-  tags: null
+  video_embed: <iframe width="560" height="315" src="https://liy1shu.github.io/HAVE_CoRL25/static/videos/HAVE_spotlight_final.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  tags: 
+    - affordance
 
-- abs: null
-  authors: Kallol Saha*, Amber Li*, Angela Rodriguez-Izquierdo, Lifan Yu, Ben Eisner, Maxim Likhachev, David Held
-  award: null
-  bib: null
-  img: ''
-  links: {}
+
+- abs: "Long-horizon planning for robot manipulation is a challenging problem that requires reasoning about the effects of a sequence of actions on a physical 3D scene. While traditional task planning methods are shown to be effective for long-horizon manipulation, they require discretizing the continuous state and action space into symbolic descriptions of objects, object relationships, and actions. Instead, we propose a hybrid learning-and-planning approach that leverages learned models as domain-specific priors to guide search in high-dimensional continuous action spaces. We introduce SPOT: Search over Point cloud Object Transformations, which plans by searching for a sequence of transformations from an initial scene point cloud to a goal-satisfying point cloud. SPOT samples candidate actions from learned suggesters that operate on partially observed point clouds, eliminating the need to discretize actions or object relationships. We evaluate SPOT on multi-object rearrangement tasks, reporting task planning success and task execution success in both simulation and real-world environments. Our experiments show that SPOT generates successful plans and outperforms a policy-learning approach. We also perform ablations that highlight the importance of search-based planning."
+  authors: Kallol Saha*, Amber Li*, Angela Rodriguez-Izquierdo*, Lifan Yu, Ben Eisner, Maxim Likhachev, David Held
+  award: <award>Oral Presentation</award>  (Selection rate 5.7%)
+  bib: >
+    @inproceedings{saha2025planning,
+      title={Planning from Point Clouds over Continuous Actions for Multi-object Rearrangement},
+      author={Saha, Kallol and Li, Amber and Rodriguez-Izquierdo, Angela and Yu, Lifan and Eisner, Ben and Likhachev, Maxim and Held, David},
+      booktitle={Conference on Robot Learning (CoRL)},
+      year={2025}
+    }
+  img: '../pics/SPOT_short_teaser.gif'
+  links:  
+      '[arXiv]': https://arxiv.org/abs/2509.04645
+      '[Code]': https://github.com/kallol-saha/SPOT
   short_id: saha2025planning
-  site: null
+  site: https://planning-from-point-clouds.github.io/
   title: "Planning from Point Clouds over Continuous Actions for Multi-object Rearrangement"
   venue: Conference on Robot Learning (CoRL), 2025
-  video_embed: null
-  tags: null
+  video_embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/iofUJtJoWG0?si=KGMdJ51zV9RHCTEv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  tags:  
+      - affordance
 
-- abs: null
+- abs: "Robot-assisted dressing has the potential to significantly improve the lives of individuals with mobility impairments. To ensure an effective and comfortable dressing experience, the robot must be able to handle challenging deformable garments, apply appropriate forces, and adapt to limb movements throughout the dressing process. Prior work often makes simplifying assumptions—such as static human limbs during dressing—which limits real-world applicability. In this work, we develop a robot-assisted dressing system capable of handling partial observations with visual occlusions, as well as robustly adapting to arm motions during the dressing process. Given a policy trained in simulation with partial observations, we propose a method to fine-tune it in the real world using a small amount of data and multi-modal feedback from vision and force sensing, to further improve the policy's adaptability to arm motions and enhance safety. We evaluate our method in simulation with simplified articulated human meshes and in a real world human study with 12 participants across 264 dressing trials. Our policy successfully dresses two long-sleeve everyday garments onto the participants while being adaptive to various kinds of arm motions, and greatly outperforms prior baselines in terms of task completion and user feedback."
   authors: Alexis Yihong Hao, Yufei Wang, Navin Sriram Ravie, Bharath Hegde, David Held&dagger;, Zackory Erickson&dagger;
   award: null
-  bib: null
-  img: ''
-  links: {}
+  bib: >
+    @inproceedings{Hao2025Force,
+              title={Force-Modulated Visual Policy for Robot-Assisted Dressing with Arm Motions},
+              author={Hao, Yihong and Wang, Yufei and Ravie, Navin Sriram and Hegde, Bharath and Held, David and Erickson, Zackory},
+              booktitle={Conference on Robot Learning (CoRL)},
+              year={2025}
+    }   
+  img: ../pics/FMVP-CoRL2025.gif
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2509.12741
   short_id: hao2025dressing
-  site: null
-  title: "Multi-Modal Fine-Tuning for Robot-Assisted Dressing with Arm Motions"
+  site: https://dressing-motion.github.io/
+  title: "Force-Modulated Visual Policy for Robot-Assisted Dressing with Arm Motions"
   venue: Conference on Robot Learning (CoRL), 2025
   video_embed: null
-  tags: null
+  tags:     
+      - deformable
+      - multimodal
 
 - abs: "This paper presents ArticuBot, in which a single learned policy enables a robotics system to open diverse categories of unseen articulated objects in the real world. This task has long been challenging for robotics due to the large variations in the geometry, size, and articulation types of such objects. Our system, Articubot, consists of three parts: generating a large number of demonstrations in physics-based simulation, distilling all generated demonstrations into a point cloud-based neural policy via imitation learning, and performing zero-shot sim2real transfer to real robotics systems. Utilizing sampling-based grasping and motion planning, our demonstration generalization pipeline is fast and effective, generating a total of 42.3k demonstrations over 322 training articulated objects. For policy learning, we propose a novel hierarchical policy representation, in which the high-level policy learns the sub-goal for the end-effector, and the low-level policy learns how to move the end-effector conditioned on the predicted goal. We demonstrate that this hierarchical approach achieves much better object-level generalization compared to the non-hierarchical version. We further propose a novel weighted displacement model for the high-level policy that grounds the prediction into the existing 3D structure of the scene, outperforming alternative policy representations. We show that our learned policy can zero-shot transfer to three different real robot settings: a fixed table-top Franka arm across two different labs, and an X-Arm on a mobile base, opening multiple unseen articulated objects across two labs, real lounges, and kitchens."
   authors: Yufei Wang*, Ziyu Wang*, Mino Nakura&dagger;, Pratik Bhowal&dagger;, Chia-Liang Kuo&dagger;, Yi-Ting Chen, Zackory Erickson&Dagger;, David Held&Dagger;
