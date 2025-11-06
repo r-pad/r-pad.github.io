@@ -29,3 +29,22 @@ Tracking involves consistently locating an object as it moves across a scene, or
     </table>
     </div>
 </details>
+
+## Reinforcement Learning Algorithms
+
+Robots can use data, either from the real world or from a simulator, to learn how to perform a task.  
+This is especially important for tasks which are difficult for robots to achieve via traditional techniques 
+such as motion planning, such as deformable object manipulation.  We have developed novel reinforcement 
+learning algorithms to more effectively learn from data."
+  
+<details>
+<summary style="display: list-item;"><b>Relevant Publications</b></summary>
+<div>
+    <table cellpadding="10" width="100%">
+        {% assign pubs = site.data.pubs | where: 'tags', 'rl' %}
+        {% for pub in pubs %}
+            {% include pub.html %}
+        {% endfor %}
+    </table>
+    </div>
+</details>

@@ -16,12 +16,6 @@
   blurb: "Robots should use all of the sensors available to them, such as depth, RGB, and tactile data.  
   We have developed methods to intelligently integrate these sensor modalities."
   tag: multimodal
-- title: Reinforcement Learning Algorithms
-  blurb: "Robots can use data, either from the real world or from a simulator, to learn how to perform a task.  
-  This is especially important for tasks which are difficult for robots to achieve via traditional techniques 
-  such as motion planning, such as deformable object manipulation.  We have developed novel reinforcement 
-  learning algorithms to more effectively learn from data."
-  tag: rl
 - title: Autonomous Driving
   blurb: "In the domain of autonomous driving, we have developed novel methods for every part of the perception 
   pipeline: segmentation, object detection, tracking, and velocity estimation."
