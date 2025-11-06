@@ -66,6 +66,42 @@ var main = {
 
     // show the big header image
     main.initImgs();
+    
+    // Initialize lab photo slider
+    main.initLabSlider();
+  },
+  
+  initLabSlider : function() {
+    // Wait for jQuery to be ready
+    if (typeof jQuery === 'undefined') {
+      setTimeout(main.initLabSlider, 100);
+      return;
+    }
+    
+    var slides = $('.lab-photo-slider .slide');
+    if (slides.length === 0) return;
+    
+    var currentSlide = 0;
+    var slideInterval;
+    
+    function showSlide(index) {
+      slides.removeClass('active');
+      $(slides[index]).addClass('active');
+    }
+    
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide(currentSlide);
+    }
+    
+    // Make sure only the first slide is visible initially
+    slides.removeClass('active');
+    $(slides[0]).addClass('active');
+    
+    // Start the slider if there are multiple slides
+    if (slides.length > 1) {
+      slideInterval = setInterval(nextSlide, 4000); // Change slide every 4 seconds
+    }
   },
 
   initImgs : function() {

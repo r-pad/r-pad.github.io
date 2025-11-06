@@ -28,6 +28,82 @@
   }
 }
 
+.lab-photo-slider {
+  background-color: black;
+  min-height: 550px;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 550px;
+  margin: 0;
+  padding: 0;
+}
+
+.slide {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.slide.active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 2;
+}
+
+.slide img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.lab-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+@media only screen and (max-width: 900px) {
+  .lab-photo-slider {
+    min-height: 400px;
+  }
+  
+  .slider-container {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .lab-photo-slider {
+    min-height: 300px;
+  }
+  
+  .slider-container {
+    height: 300px;
+  }
+}
+
 .main-news {
   height: 500px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02)
