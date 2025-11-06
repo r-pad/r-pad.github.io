@@ -248,8 +248,8 @@
   links:
       '[arXiv]': https://arxiv.org/abs/2410.07078
       '[Code]': https://github.com/liy1shu/FlowBotHD/
-    tags: 
-      - active-perception
+  tags: 
+    - active-perception
 
 
 - authors: Abhijat Biswas, Pranay Gupta, Shreeya Khurana, David Held, Henny Admoni;
