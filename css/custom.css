@@ -78,6 +78,61 @@
   display: block;
 }
 
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  width: 100px; /* Change this to adjust arrow button size (width) */
+  height: 100px; /* Change this to adjust arrow button size (height) */
+  font-size: 40px; /* Change this to adjust arrow symbol size */
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.slider-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slider-arrow:active {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.slider-arrow-left {
+  left: 2px; /* Change this to move left arrow closer (smaller value) or farther (larger value) from photo */
+}
+
+.slider-arrow-right {
+  right: 2px; /* Change this to move right arrow closer (smaller value) or farther (larger value) from photo */
+}
+
+.slider-arrow span {
+  line-height: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .slider-arrow {
+    width: 60px; /* Mobile arrow button width */
+    height: 60px; /* Mobile arrow button height */
+    font-size: 32px; /* Mobile arrow symbol size */
+  }
+  
+  .slider-arrow-left {
+    left: 5px; /* Mobile left arrow position */
+  }
+  
+  .slider-arrow-right {
+    right: 5px; /* Mobile right arrow position */
+  }
+}
+
 .lab-title {
   margin-top: 30px;
   margin-bottom: 30px;
