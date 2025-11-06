@@ -37,6 +37,8 @@
   title: "Real-World Offline Reinforcement Learning from Vision Language Model Feedback "
   venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025"
   video_embed: null
+  tags:     
+    - deformable
 
 - abs: Standard evaluation protocols in robotic manipulation typically assess policy performance over curated, in-distribution test sets, offering limited insight into how systems fail under plausible variation. We introduce Geometric Red-Teaming (GRT), a red-teaming framework that probes robustness through object-centric geometric perturbations, automatically generating CrashShapes -- structurally valid, user-constrained mesh deformations that trigger catastrophic failures in pre-trained manipulation policies. The method integrates a Jacobian field-based deformation model with a gradient-free, simulator-in-the-loop optimization strategy. Across insertion, articulation, and grasping tasks, GRT consistently discovers deformations that collapse policy performance, revealing brittle failure modes missed by static benchmarks. By combining task-level policy rollouts with constraint-aware shape exploration, we aim to build a general purpose framework for structured, object-centric robustness evaluation in robotic manipulation. We additionally show that fine-tuning on individual CrashShapes, a process we refer to as blue-teaming, improves task success by up to 60 percentage points on those shapes, while preserving performance on the original object, demonstrating the utility of red-teamed geometries for targeted policy refinement. Finally, we validate both red-teaming and blue-teaming results with a real robotic arm, observing that simulated CrashShapes reduce task success from 90% to as low as 22.5%, and that blue-teaming recovers performance to up to 90% on the corresponding real-world geometry -- closely matching simulation outcomes.
   authors: Divyam Goel, Yufei Wang, Tiancheng Wu, Helen Qiao, Pavel Piliptchak, David Held&dagger;, Zackory Erickson&dagger;
@@ -60,7 +62,8 @@
   title: "Geometric Red-Teaming for Robotic Manipulation"
   venue: Conference on Robot Learning (CoRL), 2025
   video_embed: null
-  tags: null
+  tags: 
+    - affordance
 
 - abs: "We introduce a novel History-Aware Verifier (HAVE) to solve ambiguous manipulation tasks. Our method works by decoupling action generation from verification: it first proposes multiple candidate actions and then uses the verifier to select the most promising one by reasoning about past interactions. We theoretically and practically proved that the verifier improves the expected performance."
   authors: Yishu Li, Xinyi Mao, Ying Yuan, Kyutae Sim, Ben Eisner, David Held
@@ -83,7 +86,8 @@
   video_embed: <iframe width="560" height="315" src="https://liy1shu.github.io/HAVE_CoRL25/static/videos/HAVE_spotlight_final.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   tags: 
     - affordance
-
+    - deformable
+    - active-perception
 
 - abs: "Long-horizon planning for robot manipulation is a challenging problem that requires reasoning about the effects of a sequence of actions on a physical 3D scene. While traditional task planning methods are shown to be effective for long-horizon manipulation, they require discretizing the continuous state and action space into symbolic descriptions of objects, object relationships, and actions. Instead, we propose a hybrid learning-and-planning approach that leverages learned models as domain-specific priors to guide search in high-dimensional continuous action spaces. We introduce SPOT: Search over Point cloud Object Transformations, which plans by searching for a sequence of transformations from an initial scene point cloud to a goal-satisfying point cloud. SPOT samples candidate actions from learned suggesters that operate on partially observed point clouds, eliminating the need to discretize actions or object relationships. We evaluate SPOT on multi-object rearrangement tasks, reporting task planning success and task execution success in both simulation and real-world environments. Our experiments show that SPOT generates successful plans and outperforms a policy-learning approach. We also perform ablations that highlight the importance of search-based planning."
   authors: Kallol Saha*, Amber Li*, Angela Rodriguez-Izquierdo*, Lifan Yu, Ben Eisner, Maxim Likhachev, David Held
@@ -151,6 +155,7 @@
   video_embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/q94AwPX1b00?si=_cVBmZYjaLdjSI5v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   tags: 
       - affordance
+      - deformable
 
 - abs: "The ability to identify important objects in a complex and dynamic driving environment is essential for autonomous driving agents to make safe and efficient driving decisions. It also helps assistive driving systems decide when to alert drivers. We tackle object importance estimation in a data-driven fashion and introduce HOIST - Human-annotated Object Importance in Simulated Traffic. HOIST contains driving scenarios with human-annotated importance labels for vehicles and pedestrians. We additionally propose a novel approach that relies on counterfactual reasoning to estimate an object's importance. We generate counterfactual scenarios by modifying the motion of objects and ascribe importance based on how the modifications affect the ego vehicle's driving. Our approach outperforms strong baselines for the task of object importance estimation on HOIST. We also perform ablation studies to justify our design choices and show the significance of the different components of our proposed approach."
   authors: Pranay Gupta, Abhijat Biswas, Henny Admoni, David Held
@@ -243,6 +248,9 @@
   links:
       '[arXiv]': https://arxiv.org/abs/2410.07078
       '[Code]': https://github.com/liy1shu/FlowBotHD/
+    tags: 
+      - active-perception
+
 
 - authors: Abhijat Biswas, Pranay Gupta, Shreeya Khurana, David Held, Henny Admoni;
   title: "Modeling Drivers' Situational Awareness from Eye Gaze for Driving Assistance"

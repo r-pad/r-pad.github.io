@@ -1,5 +1,5 @@
 
-- title: Deformable Object Manipulation
+- title: Deformable / Non-Rigid Object Manipulation
   blurb: "Deformable objects are challenging from both a perceptual and dynamic perspective:
    a crumpled cloth has many self-occlusions and its configuration is hard to infer from observations; 
    further, the dynamics of a cloth are complex to model and incorporate into planning algorithms.  
