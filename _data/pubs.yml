@@ -83,7 +83,7 @@
   site: https://liy1shu.github.io/HAVE_CoRL25/
   title: "Learn from What We HAVE: History-Aware VErifier that Reasons about Past Interactions Online"
   venue: Conference on Robot Learning (CoRL), 2025
-  video_embed: <iframe width="560" height="315" src="https://liy1shu.github.io/HAVE_CoRL25/static/videos/HAVE_spotlight_final.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  video_embed: <iframe width="560" height="315" src="https://liy1shu.github.io/HAVE_CoRL25/static/videos/HAVE_spotlight_final.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   tags: 
     - affordance
     - deformable
