@@ -20,14 +20,11 @@
   authors: Sreyas Venkataraman*, Yufei Wang*, Ziyu Wang, Navin Sriram Ravie, Zackory Erickson&dagger;, David Held&dagger;
   award: null
   bib: >
-    @misc{venkataraman2024realworldofflinereinforcementlearning,
-      title={Real-World Offline Reinforcement Learning from Vision Language Model Feedback}, 
-      author={Sreyas Venkataraman and Yufei Wang and Ziyu Wang and Zackory Erickson and David Held},
-      year={2024},
-      eprint={2411.05273},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2411.05273}, 
+    @inproceedings{venkataraman2025realworld,
+      title     = {Real-World Offline Reinforcement Learning from Vision Language Model Feedback},
+      author    = {Venkataraman, Sreyas and Wang, Yufei and Wang, Ziyu and Ravie, Navin Sriram and Erickson, Zackory and Held, David},
+      booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+      year      = {2025}
     }
   img: ../pics/offline_rlvlmf.gif
   links: 
