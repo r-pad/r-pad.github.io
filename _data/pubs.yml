@@ -15,7 +15,31 @@
 # Current tags for research areas, see the research areas page for more details:
 # deform_obj_manip, 3D_afford_obj_manip, multimodal, rl_algs, auto_driving, active_perception, self_sup_rob
 
-
+- abs: "We introduce Latent Particle World Model (LPWM), a self-supervised object-centric world model scaled to real-world multi-object datasets and applicable in decision-making. LPWM autonomously discovers keypoints, bounding boxes, and object masks directly from video data, enabling it to learn rich scene decompositions without supervision. Our architecture is trained end-to-end purely from videos and supports flexible conditioning on actions, language, and image goals. LPWM models stochastic particle dynamics via a novel latent action module and achieves state-of-the-art results on diverse real-world and synthetic datasets. Beyond stochastic video modeling, LPWM is readily applicable to decision-making, including goal-conditioned imitation learning, as we demonstrate in the paper."
+  authors: Tal Daniel, Carl Qi, Dan Haramati, Amir Zadeh, Chuan Li, Aviv Tamar, Deepak Pathak, David Held
+  award: <award>Oral Presentation</award>  (Selection rate 1.18%)
+  bib: >
+    @inproceedings{
+        daniel2026latent,
+        title={Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling},
+        author={Tal Daniel and Carl Qi and Dan Haramati and Amir Zadeh and Chuan Li and Aviv Tamar and Deepak Pathak and David Held},
+        booktitle={The Fourteenth International Conference on Learning Representations},
+        year={2026},
+        url={https://openreview.net/forum?id=lTaPtGiUUc}
+}
+  img: ../pics/lpwm_4_720.gif
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2603.04553
+      '[Code]': https://github.com/taldatech/lpwm
+  short_id: daniel2026latent
+  site: https://taldatech.github.io/lpwm-web
+  title: "Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling"
+  venue: "The Fourteenth International Conference on Learning Representations (ICLR 2026)"
+  video_embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/aZeaCyXJjYI?si=ZKc09dS9x7TdZiCa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  tags:     
+    - self-supervised
+    
+    
 - abs: "Offline reinforcement learning can enable policy learning from pre-collected, sub-optimal datasets without online interactions. This makes it ideal for real-world robots and safety-critical scenarios, where collecting online data or expert demonstrations is slow, costly, and risky. However, most existing offline RL works assume the dataset is already labeled with the task rewards, a process that often requires significant human effort, especially when ground-truth states are hard to ascertain (e.g., in the real-world). In this paper, we build on prior work, specifically RL-VLM-F, and propose a novel system that automatically generates reward labels for offline datasets using preference feedback from a vision-language model and a text description of the task. Our method then learns a policy using offline RL with the reward-labeled dataset. We demonstrate the system’s applicability to a complex real-world robot-assisted dressing task, where we first learn a reward function using a vision-language model on a sub-optimal offline dataset, and then we use the learned reward to employ Implicit Q learning to develop an effective dressing policy. Our method also performs well in simulation tasks involving the manipulation of rigid and deformable objects, and significantly outperform baselines such as behavior cloning and inverse RL. In summary, we propose a new system that enables automatic reward labeling and policy learning from unlabeled, sub-optimal offline datasets."
   authors: Sreyas Venkataraman*, Yufei Wang*, Ziyu Wang, Navin Sriram Ravie, Zackory Erickson&dagger;, David Held&dagger;
   award: null
