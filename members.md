@@ -75,6 +75,9 @@ members:
           - name: Ellina Zhang (MSR)
             photo_url: /img/members/ellina.jpg
             web_url: https://eubooks3003.github.io/
+          - name: Haotian Zhan (MSR)
+            photo_url: /img/members/haotian.jpg
+            web_url: https://www.linkedin.com/in/haotian-zhan-96935126a/
 
       - name: Undergraduate Students
         full: true
