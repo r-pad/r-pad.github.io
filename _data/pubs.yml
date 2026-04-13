@@ -38,8 +38,24 @@
   video_embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/aZeaCyXJjYI?si=ZKc09dS9x7TdZiCa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   tags:     
     - self-supervised
-    
-    
+
+- abs: "Recent advances in robotic manipulation have highlighted the effectiveness of learning from demonstration. However, while end-to-end policies excel in expressivity and flexibility, they struggle both in generalizing to novel object geometries and in attaining a high degree of precision. An alternative, object-centric approach frames the task as predicting the placement pose of the target object, providing a modular decomposition of the problem. Building on this goal-prediction paradigm, we propose TAX-DPD, a hierarchical, disentangled point diffusion framework that achieves state-of-the-art performance in placement precision, multi-modal coverage, and generalization to variations in object geometries and scene configurations. We model global scene-level placements through a novel feed-forward Dense Gaussian Mixture Model (GMM) that yields a spatially dense prior over global placements; we then model the local object-level configuration through a novel disentangled point cloud diffusion module that separately diffuses the object geometry and the placement frame, enabling precise local geometric reasoning.  Interestingly, we demonstrate that our point cloud diffusion achieves substantially higher accuracy than a prior approach based on SE(3)-diffusion, even in the context of rigid object placement. We validate our approach across a suite of challenging tasks in simulation and in the real-world on high-precision industrial insertion tasks. Furthermore, we present results on a cloth-hanging task in simulation, indicating that our framework can further relax assumptions on object rigidity."
+  authors: Lyuxing He*, Eric Cai*, Shobhit Aggarwal, Jianjun Wang, David Held
+  award: null
+  bib: null
+  img: ../pics/icra2026_dpd.gif
+  links: 
+      '[arXiv]': null
+      '[Code]': null
+  short_id: icra2026_dpd
+  site: https://3dgp-icra2026.github.io/
+  title: "Disentangled Point Diffusion for Precise Object Placement"
+  venue: "IEEE International Conference on Robotics and Automation (ICRA), 2026"
+  video_embed: null
+  tags:     
+    - affordance
+
+
 - abs: "Offline reinforcement learning can enable policy learning from pre-collected, sub-optimal datasets without online interactions. This makes it ideal for real-world robots and safety-critical scenarios, where collecting online data or expert demonstrations is slow, costly, and risky. However, most existing offline RL works assume the dataset is already labeled with the task rewards, a process that often requires significant human effort, especially when ground-truth states are hard to ascertain (e.g., in the real-world). In this paper, we build on prior work, specifically RL-VLM-F, and propose a novel system that automatically generates reward labels for offline datasets using preference feedback from a vision-language model and a text description of the task. Our method then learns a policy using offline RL with the reward-labeled dataset. We demonstrate the system’s applicability to a complex real-world robot-assisted dressing task, where we first learn a reward function using a vision-language model on a sub-optimal offline dataset, and then we use the learned reward to employ Implicit Q learning to develop an effective dressing policy. Our method also performs well in simulation tasks involving the manipulation of rigid and deformable objects, and significantly outperform baselines such as behavior cloning and inverse RL. In summary, we propose a new system that enables automatic reward labeling and policy learning from unlabeled, sub-optimal offline datasets."
   authors: Sreyas Venkataraman*, Yufei Wang*, Ziyu Wang, Navin Sriram Ravie, Zackory Erickson&dagger;, David Held&dagger;
   award: null
