@@ -45,8 +45,7 @@
   bib: null
   img: ../pics/icra2026_dpd.gif
   links: 
-      '[arXiv]': null
-      '[Code]': null
+      '[arXiv]': https://arxiv.org/abs/2604.11793
   short_id: icra2026_dpd
   site: https://3dgp-icra2026.github.io/
   title: "Disentangled Point Diffusion for Precise Object Placement"
