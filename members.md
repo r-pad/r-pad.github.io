@@ -36,21 +36,12 @@ members:
           - name: Kallol Saha (MSR)
             photo_url: /img/members/kallol.jpg
             web_url: https://kallol-saha.github.io/
-          - name: Sriram Krishna (MSR)
-            photo_url: https://www.ri.cmu.edu/app/uploads/2024/08/sskrishn_0162-300x450.jpg
-            web_url: https://sriramsk1999.github.io/
           - name: Yishu Li (MSR)
             photo_url: /img/members/yishu.jpg
             web_url: https://liy1shu.github.io/
-          - name: Alexis Hao (MSR)
-            photo_url: /img/members/alexis.jpg
-            web_url: https://hyhalexis.github.io/
           - name: Mino Nakura (MSR)
             photo_url: /img/members/mino.jpg
             web_url: https://www.ri.cmu.edu/ri-people/maxwell-mino-nakura-fan/
-          - name: Lyuxing He (MSAI)
-            photo_url: /img/members/lyuxinghe.jpg
-            web_url: https://lyuxinghe.github.io/
           - name: Kyutae Sim (MSR)
             photo_url: /img/members/kyutae.png
             web_url: https://ktsim01.github.io/
@@ -123,6 +114,12 @@ members:
       - name: Master's students (Research Master's)
         full: False
         list:
+          - name: Sriram Krishna (MSR) -> CMU PhD
+            web_url: https://sriramsk1999.github.io/
+          - name: Alexis Hao (MSR) -> CMU PhD
+            web_url: https://hyhalexis.github.io/
+          - name: Lyuxing He (MSAI)
+            web_url: https://lyuxinghe.github.io/
           - name: Eric Cai (MSR) -> UW PhD
             web_url: https://ey-cai.github.io/
           - name: Octavian Donca (MSR) -> Skild AI
