@@ -18,10 +18,20 @@
 - abs: "We present GHOST, a framework for learning visuomotor manipulation policies that generalize beyond the training distribution. GHOST factorizes control into (i) a high-level policy that predicts the next sub-goal as a distribution over 3D end-effector poses from multi-view RGB-D observations, and (ii) a low-level goal-conditioned controller that executes embodiment-specific actions. To condition image-based policies on 3D goals, we introduce a simple spatial interface that projects predicted goals into the image plane and represents them as end-effector heatmaps. Across a suite of manipulation tasks, this hierarchical factorization consistently improves performance and robustness compared to a flat Diffusion Policy. Further, we show that this hierarchical interface also makes it easy to incorporate human demonstrations without relying on (noisy) action retargeting. As sub-goals are largely embodiment-agnostic, we train the high-level policy on human video to specify how learned skills should be applied and composed, while keeping the low-level policy trained purely on robot data. This hierarchy enables adaptation to novel objects and task variations using a small number of human demonstrations."
   authors: Sriram Krishna, Ben Eisner, Haotian Zhan, Ying Yuan, Haoyu Zhen, Chuang Gan, Shubham Tulsiani, David Held
   award: null
-  bib: null
+  arxiv_url: https://arxiv.org/abs/2606.10025
+  bib: >
+    @inproceedings{
+      krishna2026ghost,
+      title     = {GHOST: Hierarchical Sub-Goal Policies for Generalizing Robot Manipulation},
+      author    = {Krishna, Sriram and Eisner, Ben and Zhan, Haotian and Yuan, Ying and
+                  Zhen, Haoyu and Gan, Chuang and Tulsiani, Shubham and Held, David},
+      booktitle = {Robotics: Science and Systems (RSS)},
+      year      = {2026}
+    }
   img: ../pics/ghost-rss26.gif
   links:
-      '[Code]': https://github.com/r-pad/lfd3d
+      '[arXiv]': https://arxiv.org/abs/2606.10025
+      '[Code]': https://github.com/r-pad/ghost
   short_id: krishna2026ghost
   site: https://ghost-human-demo.github.io/
   title: "GHOST: Hierarchical Sub-Goal Policies for Generalizing Robot Manipulation"
