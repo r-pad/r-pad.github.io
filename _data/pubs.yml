@@ -81,6 +81,28 @@
     - affordance
 
 
+- abs: "We introduce 3D-DLP, a self-supervised object-centric representation learning model that decomposes scene-level RGB-D or voxel observations into a set of 3D latent particles. Building on the Deep Latent Particles (DLP) framework, each particle encodes disentangled attributes — 3D keypoint position, bounding box dimensions, and appearance features — and represents a distinct entity in the scene. The model learns interpretable per-particle segmentation maps through an end-to-end self-supervised reconstruction objective. On both simulated and real-world datasets, we demonstrate that the learned latent space is interpretable and controllable: by manipulating particle positions and decoding, we can generate novel scene configurations. Leveraging these compact 3D latent particles for downstream robotic manipulation improves performance over baselines that either lack explicit 3D information or rely on memory-intensive dense 3D inputs without object-centric structure."
+  authors: Ellina Zhang, Madhavan Iyengar, Amir Zadeh, Chuan Li, David Held, Deepak Pathak, Tal Daniel
+  award: null
+  bib: >
+    @inproceedings{zhang20263ddlp,
+      title={3D-DLP: Self-supervised 3D Object-centric Scene Representation Learning},
+      author={Zhang, Ellina and Iyengar, Madhavan and Zadeh, Amir and Li, Chuan and Held, David and Pathak, Deepak and Daniel, Tal},
+      booktitle={International Conference on Machine Learning (ICML)},
+      year={2026}
+    }
+  img: '../pics/icml2026_3ddlp.gif'
+  links:
+      '[arXiv]': https://arxiv.org/abs/2606.19451
+      '[Code]': https://github.com/Eubooks3003/3d-dlp
+  short_id: zhang20263ddlp
+  site: https://eubooks3003.github.io/3d-dlp/
+  title: "3D-DLP: Self-supervised 3D Object-centric Scene Representation Learning"
+  venue: International Conference on Machine Learning (ICML), 2026
+  video_embed: null
+  tags:
+    - self-supervised
+
 - abs: "Offline reinforcement learning can enable policy learning from pre-collected, sub-optimal datasets without online interactions. This makes it ideal for real-world robots and safety-critical scenarios, where collecting online data or expert demonstrations is slow, costly, and risky. However, most existing offline RL works assume the dataset is already labeled with the task rewards, a process that often requires significant human effort, especially when ground-truth states are hard to ascertain (e.g., in the real-world). In this paper, we build on prior work, specifically RL-VLM-F, and propose a novel system that automatically generates reward labels for offline datasets using preference feedback from a vision-language model and a text description of the task. Our method then learns a policy using offline RL with the reward-labeled dataset. We demonstrate the system’s applicability to a complex real-world robot-assisted dressing task, where we first learn a reward function using a vision-language model on a sub-optimal offline dataset, and then we use the learned reward to employ Implicit Q learning to develop an effective dressing policy. Our method also performs well in simulation tasks involving the manipulation of rigid and deformable objects, and significantly outperform baselines such as behavior cloning and inverse RL. In summary, we propose a new system that enables automatic reward labeling and policy learning from unlabeled, sub-optimal offline datasets."
   authors: Sreyas Venkataraman*, Yufei Wang*, Ziyu Wang, Navin Sriram Ravie, Zackory Erickson&dagger;, David Held&dagger;
   award: null
