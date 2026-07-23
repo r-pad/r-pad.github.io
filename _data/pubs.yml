@@ -15,6 +15,71 @@
 # Current tags for research areas, see the research areas page for more details:
 # deform_obj_manip, 3D_afford_obj_manip, multimodal, rl_algs, auto_driving, active_perception, self_sup_rob
 
+- abs: "We present GHOST, a framework for learning visuomotor manipulation policies that generalize beyond the training distribution. GHOST factorizes control into (i) a high-level policy that predicts the next sub-goal as a distribution over 3D end-effector poses from multi-view RGB-D observations, and (ii) a low-level goal-conditioned controller that executes embodiment-specific actions. To condition image-based policies on 3D goals, we introduce a simple spatial interface that projects predicted goals into the image plane and represents them as end-effector heatmaps. Across a suite of manipulation tasks, this hierarchical factorization consistently improves performance and robustness compared to a flat Diffusion Policy. Further, we show that this hierarchical interface also makes it easy to incorporate human demonstrations without relying on (noisy) action retargeting. As sub-goals are largely embodiment-agnostic, we train the high-level policy on human video to specify how learned skills should be applied and composed, while keeping the low-level policy trained purely on robot data. This hierarchy enables adaptation to novel objects and task variations using a small number of human demonstrations."
+  authors: Sriram Krishna, Ben Eisner, Haotian Zhan, Ying Yuan, Haoyu Zhen, Chuang Gan, Shubham Tulsiani, David Held
+  award: null
+  arxiv_url: https://arxiv.org/abs/2606.10025
+  bib: >
+    @inproceedings{
+      krishna2026ghost,
+      title     = {GHOST: Hierarchical Sub-Goal Policies for Generalizing Robot Manipulation},
+      author    = {Krishna, Sriram and Eisner, Ben and Zhan, Haotian and Yuan, Ying and
+                  Zhen, Haoyu and Gan, Chuang and Tulsiani, Shubham and Held, David},
+      booktitle = {Robotics: Science and Systems (RSS)},
+      year      = {2026}
+    }
+  img: ../pics/ghost-rss26.gif
+  links:
+      '[arXiv]': https://arxiv.org/abs/2606.10025
+      '[Code]': https://github.com/r-pad/ghost
+  short_id: krishna2026ghost
+  site: https://ghost-human-demo.github.io/
+  title: "GHOST: Hierarchical Sub-Goal Policies for Generalizing Robot Manipulation"
+  venue: "Robotics: Science and Systems (RSS), 2026"
+  video_embed: null
+  tags:
+    - affordance
+    - deformable
+
+- abs: "We introduce Latent Particle World Model (LPWM), a self-supervised object-centric world model scaled to real-world multi-object datasets and applicable in decision-making. LPWM autonomously discovers keypoints, bounding boxes, and object masks directly from video data, enabling it to learn rich scene decompositions without supervision. Our architecture is trained end-to-end purely from videos and supports flexible conditioning on actions, language, and image goals. LPWM models stochastic particle dynamics via a novel latent action module and achieves state-of-the-art results on diverse real-world and synthetic datasets. Beyond stochastic video modeling, LPWM is readily applicable to decision-making, including goal-conditioned imitation learning, as we demonstrate in the paper."
+  authors: Tal Daniel, Carl Qi, Dan Haramati, Amir Zadeh, Chuan Li, Aviv Tamar, Deepak Pathak, David Held
+  award: <award>Oral Presentation</award>  (Selection rate 1.18%)
+  bib: >
+    @inproceedings{
+        daniel2026latent,
+        title={Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling},
+        author={Tal Daniel and Carl Qi and Dan Haramati and Amir Zadeh and Chuan Li and Aviv Tamar and Deepak Pathak and David Held},
+        booktitle={The Fourteenth International Conference on Learning Representations},
+        year={2026},
+        url={https://openreview.net/forum?id=lTaPtGiUUc}
+    }
+  img: ../pics/lpwm_4_720.gif
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2603.04553
+      '[Code]': https://github.com/taldatech/lpwm
+  short_id: daniel2026latent
+  site: https://taldatech.github.io/lpwm-web
+  title: "Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling"
+  venue: "The Fourteenth International Conference on Learning Representations (ICLR 2026)"
+  video_embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/aZeaCyXJjYI?si=ZKc09dS9x7TdZiCa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  tags:     
+    - self-supervised
+
+- abs: "Recent advances in robotic manipulation have highlighted the effectiveness of learning from demonstration. However, while end-to-end policies excel in expressivity and flexibility, they struggle both in generalizing to novel object geometries and in attaining a high degree of precision. An alternative, object-centric approach frames the task as predicting the placement pose of the target object, providing a modular decomposition of the problem. Building on this goal-prediction paradigm, we propose TAX-DPD, a hierarchical, disentangled point diffusion framework that achieves state-of-the-art performance in placement precision, multi-modal coverage, and generalization to variations in object geometries and scene configurations. We model global scene-level placements through a novel feed-forward Dense Gaussian Mixture Model (GMM) that yields a spatially dense prior over global placements; we then model the local object-level configuration through a novel disentangled point cloud diffusion module that separately diffuses the object geometry and the placement frame, enabling precise local geometric reasoning.  Interestingly, we demonstrate that our point cloud diffusion achieves substantially higher accuracy than a prior approach based on SE(3)-diffusion, even in the context of rigid object placement. We validate our approach across a suite of challenging tasks in simulation and in the real-world on high-precision industrial insertion tasks. Furthermore, we present results on a cloth-hanging task in simulation, indicating that our framework can further relax assumptions on object rigidity."
+  authors: Lyuxing He*, Eric Cai*, Shobhit Aggarwal, Jianjun Wang, David Held
+  award: null
+  bib: null
+  img: ../pics/icra2026_dpd.gif
+  links: 
+      '[arXiv]': https://arxiv.org/abs/2604.11793
+  short_id: icra2026_dpd
+  site: https://3dgp-icra2026.github.io/
+  title: "Disentangled Point Diffusion for Precise Object Placement"
+  venue: "IEEE International Conference on Robotics and Automation (ICRA), 2026"
+  video_embed: null
+  tags:     
+    - affordance
+
 
 - abs: "We introduce 3D-DLP, a self-supervised object-centric representation learning model that decomposes scene-level RGB-D or voxel observations into a set of 3D latent particles. Building on the Deep Latent Particles (DLP) framework, each particle encodes disentangled attributes — 3D keypoint position, bounding box dimensions, and appearance features — and represents a distinct entity in the scene. The model learns interpretable per-particle segmentation maps through an end-to-end self-supervised reconstruction objective. On both simulated and real-world datasets, we demonstrate that the learned latent space is interpretable and controllable: by manipulating particle positions and decoding, we can generate novel scene configurations. Leveraging these compact 3D latent particles for downstream robotic manipulation improves performance over baselines that either lack explicit 3D information or rely on memory-intensive dense 3D inputs without object-centric structure."
   authors: Ellina Zhang, Madhavan Iyengar, Amir Zadeh, Chuan Li, David Held, Deepak Pathak, Tal Daniel
@@ -42,14 +107,11 @@
   authors: Sreyas Venkataraman*, Yufei Wang*, Ziyu Wang, Navin Sriram Ravie, Zackory Erickson&dagger;, David Held&dagger;
   award: null
   bib: >
-    @misc{venkataraman2024realworldofflinereinforcementlearning,
-      title={Real-World Offline Reinforcement Learning from Vision Language Model Feedback}, 
-      author={Sreyas Venkataraman and Yufei Wang and Ziyu Wang and Zackory Erickson and David Held},
-      year={2024},
-      eprint={2411.05273},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2411.05273}, 
+    @inproceedings{venkataraman2025realworld,
+      title     = {Real-World Offline Reinforcement Learning from Vision Language Model Feedback},
+      author    = {Venkataraman, Sreyas and Wang, Yufei and Wang, Ziyu and Ravie, Navin Sriram and Erickson, Zackory and Held, David},
+      booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+      year      = {2025}
     }
   img: ../pics/offline_rlvlmf.gif
   links: 
@@ -105,7 +167,7 @@
   site: https://liy1shu.github.io/HAVE_CoRL25/
   title: "Learn from What We HAVE: History-Aware VErifier that Reasons about Past Interactions Online"
   venue: Conference on Robot Learning (CoRL), 2025
-  video_embed: <iframe width="560" height="315" src="https://liy1shu.github.io/HAVE_CoRL25/static/videos/HAVE_spotlight_final.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  video_embed: <iframe width="560" height="315" src="https://liy1shu.github.io/HAVE_CoRL25/static/videos/HAVE_spotlight_final.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   tags: 
     - affordance
     - deformable
@@ -291,7 +353,7 @@
   
 - authors: Siddharth Ancha, Gaurav Pathak, Ji Zhang, Srinivasa Narasimhan, David Held;
   title: "Active Velocity Estimation using Light Curtains via Self-Supervised Multi-Armed Bandits"
-  venue: "Autonomous Robotics, 2024"
+  venue: "Autonomous Robots, 2024"
   img: ''
 
 - abs: "Autonomous systems that efficiently utilize tools can assist humans in completing many common tasks such as cooking and cleaning. However, current systems fall short of matching human-level of intelligence in terms of adapting to novel tools. Prior works based on affordance often make strong assumptions about the environments and cannot scale to more complex, contact-rich tasks. In this work, we tackle this challenge and explore how agents can learn to use previously unseen tools to manipulate deformable objects. We propose to learn a generative model of the tool-use trajectories as a sequence of tool point clouds, which generalizes to different tool shapes. Given any novel tool, we first generate a tool-use trajectory and then optimize the sequence of tool poses to align with the generated trajectory. We train a single model on four different challenging deformable object manipulation tasks, using demonstration data from only one tool per task. The model generalizes to various novel tools, significantly outperforming baselines. We further test our trained policy in the real world with unseen tools, where it achieves the performance comparable to human."
