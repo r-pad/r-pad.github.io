@@ -58,7 +58,9 @@ members:
       - name: Undergraduate Students
         full: true
         list:
-
+          - name: Sam Ethan Mathew
+            photo_url: /img/members/sam.jpg
+            web_url: https://www.linkedin.com/in/sam-mathew-1a9778254/
       - name: Visiting Students
         full: true
         list:
