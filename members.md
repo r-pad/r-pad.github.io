@@ -54,6 +54,9 @@ members:
           - name: Xinyu Liu (MSCV)
             photo_url: /img/members/xinyu.jpg
             web_url: https://www.linkedin.com/in/xinyu-zoey-liu/
+          - name: Jianglan Wei (MSR)
+            photo_url: /img/members/jianglan.jpg
+            web_url: https://jianglanwei.com/
           
       - name: Undergraduate Students
         full: true
