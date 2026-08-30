@@ -27,6 +27,9 @@ members:
           - name: Amber Li
             photo_url: https://www.ri.cmu.edu/app/uploads/2024/08/amberli2_0319-300x450.jpg
             web_url: https://amburger66.github.io/
+          - name: Sriram Krishna<br>(co-advised with Shubham Tulsiani)
+            photo_url: https://www.ri.cmu.edu/app/uploads/2024/08/sskrishn_0162-300x450.jpg
+            web_url: https://sriramsk1999.github.io/
       - name: Masters Students
         full: true
         list:
@@ -80,10 +83,10 @@ members:
       - name: PhD alumni
         full: False
         list:
-          - name: Yufei Wang (co-advised with Zackory Erickson)
+          - name: Yufei Wang (co-advised with Zackory Erickson) -> Genesis
             photo_url: https://yufeiwang63.github.io/img/1inch_yufeiwang.jpg
             web_url: https://yufeiwang63.github.io/
-          - name: Ben Eisner
+          - name: Ben Eisner -> Index Robotics
             photo_url: https://www.ri.cmu.edu/wp-content/uploads/2020/07/Eisner_Benjamin_2020.png
             web_url: http://beisner.me/
           - name: Wenxuan Zhou -> Research Scientist at Meta
