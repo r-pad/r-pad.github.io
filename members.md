@@ -73,6 +73,9 @@ members:
           - name: Theyanesh Eswaramoorthy Rajahkrishnan
             photo_url: https://www.ri.cmu.edu/app/uploads/2026/05/Theyanesh-300x450.jpg
             web_url: https://www.linkedin.com/in/theyanesh-e-r/
+          - name: Bu He
+            photo_url: /img/members/buhe.jpg
+            web_url: https://github.com/hebu24/
   - name: <a name="alumni"></a>Alumni
     list:
       - name: Post-Doc alumni
