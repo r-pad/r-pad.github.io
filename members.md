@@ -60,6 +60,9 @@ members:
           - name: Jianglan Wei (MSR)
             photo_url: /img/members/jianglan.jpg
             web_url: https://jianglanwei.com/
+          - name: Junwen Miao (MSML)
+            photo_url: /img/members/junwen.jpg
+            web_url: https://meksaaa.github.io/
           
       - name: Undergraduate Students
         full: true
