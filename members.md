@@ -79,6 +79,10 @@ members:
           - name: Bu He
             photo_url: /img/members/buhe.jpg
             web_url: https://github.com/hebu24/
+          - name: Daichi Yashima
+            photo_url: /img/members/daichi.png
+            web_url: https://daichi1207.github.io/
+
   - name: <a name="alumni"></a>Alumni
     list:
       - name: Post-Doc alumni
