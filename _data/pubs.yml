@@ -26,7 +26,7 @@
       year={2026},
       note={To appear}
     }
-  img: '../corl_2026_logo.jpeg'
+  img: '../pics/corl_2026_logo.jpeg'
   links:
     '[OpenReview]': https://openreview.net/forum?id=hDNvcoKMXH
   short_id: yuan2026grasps
@@ -47,7 +47,7 @@
       year={2026},
       note={To appear}
     }
-  img: '../corl_2026_logo.jpeg'
+  img: '../pics/corl_2026_logo.jpeg'
   links:
     '[OpenReview]': https://openreview.net/forum?id=FYNtpa7rwN
   short_id: li2026scouting
@@ -68,7 +68,7 @@
       year={2026},
       note={To appear}
     }
-  img: '../corl_2026_logo.jpeg'
+  img: '../pics/corl_2026_logo.jpeg'
   links:
     '[OpenReview]': https://openreview.net/forum?id=SMKzI5HX9P
   short_id: xiao2026h2rbench
@@ -89,7 +89,7 @@
       year={2026},
       note={To appear}
     }
-  img: '../corl_2026_logo.jpeg'
+  img: '../pics/corl_2026_logo.jpeg'
   links:
     '[OpenReview]': https://openreview.net/forum?id=hWuk4y2AeR
   short_id: saha2026longhorizon
