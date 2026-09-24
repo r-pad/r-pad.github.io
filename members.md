@@ -63,6 +63,9 @@ members:
           - name: Junwen Miao (MSML)
             photo_url: /img/members/junwen.jpg
             web_url: https://meksaaa.github.io/
+          - name: Robert Chu (MSR)
+            photo_url: /img/members/robert.jpg
+            web_url: https://www.linkedin.com/in/robert-chu-614550290/
           
       - name: Undergraduate Students
         full: true
