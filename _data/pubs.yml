@@ -82,22 +82,21 @@
 
 - abs: null
   authors: Kallol Saha, Yining Hong, Amber Li, Yejin Choi, Maxim Likhachev, David Held
-  award: <award>Oral Presentation</award>  (Selection rate 1.00%)
+  award: <award>Oral Presentation</award>  (Selection rate 1%)
   bib: >
     @inproceedings{saha2026longhorizon,
       title={Long-Horizon Multi-Object Rearrangement via Distilled Tree Search over Continuous Actions},
       author={Kallol Saha and Yining Hong and Amber Li and Yejin Choi and Maxim Likhachev and David Held},
       booktitle={Conference on Robot Learning (CoRL)},
-      year={2026},
-      note={To appear}
+      year={2026}
     }
-  img: '../pics/corl_2026_logo.jpeg'
+  img: '../pics/corl2026_disco.gif'
   links:
     '[OpenReview]': https://openreview.net/forum?id=hWuk4y2AeR
   short_id: saha2026longhorizon
-  site: null
+  site: https://distilled-search.github.io/
   title: "Long-Horizon Multi-Object Rearrangement via Distilled Tree Search over Continuous Actions"
-  venue: "Conference on Robot Learning (CoRL), 2026 (to appear)"
+  venue: "Conference on Robot Learning (CoRL), 2026"
   video_embed: null
   tags: null
 
