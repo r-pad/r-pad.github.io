@@ -60,9 +60,10 @@
   video_embed: null
   tags: null
 
-- abs: null
-  authors: Chuyang Xiao, Haotian Zhan, Sriram Krishna, Peilin Meng, Muhammad Zubair Irshad, Sergey Zakharov, David Held
+- abs: "Learning robot manipulation policies from human video demonstrations constitutes a promising avenue for scalable robot learning. However, comparing different human-to-robot (H2R) transfer methods remains challenging, as existing approaches are evaluated under different settings, including differing task suites, scene layouts, object instances, and amounts of robot supervision. To address this challenge, we present H2RBench, a Real2Sim benchmark for evaluating H2R transfer methods. H2RBench provides a standardized protocol built on real human video demonstrations and simulated robot demonstrations, and includes four manipulation tasks spanning diverse interaction requirements. We evaluate multiple representative H2R transfer methods, each adopting a different strategy for bridging the embodiment gap. Using H2RBench, we systematically characterize how each method scales with the amount of human demonstrations, revealing that methods differ substantially in their ability to leverage additional human data. We further show that simulation performance is broadly predictive of real-world robot performance, with an overall Pearson correlation of r = 0.89, Spearman correlation of ρ = 0.85 and Mean Maximum Rank Violation (MMRV) of 0.06 across method-task configurations. These results establish H2RBench as a practical and scalable benchmark for comparative H2R evaluation prior to real-world deployment."
+  authors: Chuyang Xiao*, Haotian Zhan*, Sriram Krishna, Peilin Meng, Muhammad Zubair Irshad, Sergey Zakharov, David Held
   award: null
+  arxiv_url: https://arxiv.org/abs/2609.24778
   bib: >
     @inproceedings{xiao2026h2rbench,
       title={{H2RBench}: A Real-to-Sim Benchmark for Evaluating Human-to-Robot Transfer},
@@ -71,14 +72,16 @@
       year={2026},
       note={To appear}
     }
-  img: '../pics/corl_2026_logo.jpeg'
+  img: '../pics/corl2026_h2rbench.gif'
   links:
+    '[arXiv]': https://arxiv.org/abs/2609.24778
+    '[PDF]': https://arxiv.org/pdf/2609.24778
     '[OpenReview]': https://openreview.net/forum?id=SMKzI5HX9P
   short_id: xiao2026h2rbench
-  site: null
+  site: https://h2rbench.github.io/
   title: "H2RBench: A Real-to-Sim Benchmark for Evaluating Human-to-Robot Transfer"
   venue: "Conference on Robot Learning (CoRL), 2026 (to appear)"
-  video_embed: null
+  video_embed: <iframe width="560" height="315" src="https://h2rbench.github.io/static/videos/intro.mp4" title="H2RBench video" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   tags: null
 
 - abs: null
