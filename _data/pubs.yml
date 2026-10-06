@@ -30,13 +30,15 @@
   img: '../pics/corl2026_grasp2dexterity.gif'
   links:
     '[arXiv]': https://arxiv.org/abs/2606.30749
+    '[Code]': https://github.com/YingYuan0414/DexCraft
     '[OpenReview]': https://openreview.net/forum?id=hDNvcoKMXH
   short_id: yuan2026grasps
   site: https://yingyuan0414.github.io/grasp2dexterity/
   title: "From Grasps to Dexterity: Large-Scale Grasp Pretraining for Dexterous Manipulation"
   venue: "Conference on Robot Learning (CoRL), 2026 (to appear)"
-  video_embed: null
-  tags: null
+  video_embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/GqHDTBegLZQ?si=fjhQB1CRRX4cghM5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  tags: 
+    - affordance
 
 - abs: null
   authors: Yishu Li, Liyuan Geng, Xinyi Mao, Amber Li, David Held
