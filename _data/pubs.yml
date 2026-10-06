@@ -30,13 +30,15 @@
   img: '../pics/corl2026_grasp2dexterity.gif'
   links:
     '[arXiv]': https://arxiv.org/abs/2606.30749
+    '[Code]': https://github.com/YingYuan0414/DexCraft
     '[OpenReview]': https://openreview.net/forum?id=hDNvcoKMXH
   short_id: yuan2026grasps
   site: https://yingyuan0414.github.io/grasp2dexterity/
   title: "From Grasps to Dexterity: Large-Scale Grasp Pretraining for Dexterous Manipulation"
   venue: "Conference on Robot Learning (CoRL), 2026"
-  video_embed: null
-  tags: null
+  video_embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/GqHDTBegLZQ?si=fjhQB1CRRX4cghM5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  tags: 
+    - affordance
 
 - abs: "While pretrained robotic policies exhibit impressive capabilities in controlled environments, the inherent unpredictability of the real world, including unobserved dynamic properties, requires these policies to rapidly adapt during deployment. Existing test-time adaptation methods typically rely on sparse scalar rewards, failing to exploit the rich geometric and dynamic feedback from the environment during physical interaction. To address this challenge, we propose SCOUT, a dynamics-aware meta-learning framework that enables manipulation policies to rapidly adapt by continuously revising their internal beliefs about environment dynamics. Our approach couples an action-prediction policy with a forward dynamics model via a shared belief latent space. During meta-training, an inner loop updates this shared belief latent by minimizing the dynamics prediction error against the observed action outcome, while the outer loop optimizes the network for action selection. At deployment, this structure allows the agent to infer and adapt to unknown physical dynamics on the fly. By updating its latent belief based on action-outcome mismatches, the policy automatically adapts without risking catastrophic forgetting. We demonstrate that SCOUT significantly accelerates online adaptation across simulated manipulation benchmarks and achieves robust sim-to-real transfer in the real world."
   authors: Yishu Li*, Liyuan Geng*, Xinyi Mao*, Amber Li, David Held
