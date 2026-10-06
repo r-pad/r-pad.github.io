@@ -35,13 +35,13 @@
   short_id: yuan2026grasps
   site: https://yingyuan0414.github.io/grasp2dexterity/
   title: "From Grasps to Dexterity: Large-Scale Grasp Pretraining for Dexterous Manipulation"
-  venue: "Conference on Robot Learning (CoRL), 2026 (to appear)"
+  venue: "Conference on Robot Learning (CoRL), 2026"
   video_embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/GqHDTBegLZQ?si=fjhQB1CRRX4cghM5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   tags: 
     - affordance
 
-- abs: null
-  authors: Yishu Li, Liyuan Geng, Xinyi Mao, Amber Li, David Held
+- abs: "While pretrained robotic policies exhibit impressive capabilities in controlled environments, the inherent unpredictability of the real world, including unobserved dynamic properties, requires these policies to rapidly adapt during deployment. Existing test-time adaptation methods typically rely on sparse scalar rewards, failing to exploit the rich geometric and dynamic feedback from the environment during physical interaction. To address this challenge, we propose SCOUT, a dynamics-aware meta-learning framework that enables manipulation policies to rapidly adapt by continuously revising their internal beliefs about environment dynamics. Our approach couples an action-prediction policy with a forward dynamics model via a shared belief latent space. During meta-training, an inner loop updates this shared belief latent by minimizing the dynamics prediction error against the observed action outcome, while the outer loop optimizes the network for action selection. At deployment, this structure allows the agent to infer and adapt to unknown physical dynamics on the fly. By updating its latent belief based on action-outcome mismatches, the policy automatically adapts without risking catastrophic forgetting. We demonstrate that SCOUT significantly accelerates online adaptation across simulated manipulation benchmarks and achieves robust sim-to-real transfer in the real world."
+  authors: Yishu Li*, Liyuan Geng*, Xinyi Mao*, Amber Li, David Held
   award: null
   bib: >
     @inproceedings{li2026scouting,
@@ -51,55 +51,57 @@
       year={2026},
       note={To appear}
     }
-  img: '../pics/corl_2026_logo.jpeg'
+  img: '../pics/corl2026_scout.gif'
   links:
+    '[arXiv]': https://arxiv.org/abs/2609.36107
     '[OpenReview]': https://openreview.net/forum?id=FYNtpa7rwN
   short_id: li2026scouting
-  site: null
+  site: https://liy1shu.github.io/SCOUT/
   title: "Scouting the Dynamics Gap: Test-Time Policy Adaptation via Action-Outcome Feedback"
-  venue: "Conference on Robot Learning (CoRL), 2026 (to appear)"
+  venue: "Conference on Robot Learning (CoRL), 2026"
   video_embed: null
   tags: null
 
-- abs: null
-  authors: Chuyang Xiao, Haotian Zhan, Sriram Krishna, Peilin Meng, Muhammad Zubair Irshad, Sergey Zakharov, David Held
+- abs: "Learning robot manipulation policies from human video demonstrations constitutes a promising avenue for scalable robot learning. However, comparing different human-to-robot (H2R) transfer methods remains challenging, as existing approaches are evaluated under different settings, including differing task suites, scene layouts, object instances, and amounts of robot supervision. To address this challenge, we present H2RBench, a Real2Sim benchmark for evaluating H2R transfer methods. H2RBench provides a standardized protocol built on real human video demonstrations and simulated robot demonstrations, and includes four manipulation tasks spanning diverse interaction requirements. We evaluate multiple representative H2R transfer methods, each adopting a different strategy for bridging the embodiment gap. Using H2RBench, we systematically characterize how each method scales with the amount of human demonstrations, revealing that methods differ substantially in their ability to leverage additional human data. We further show that simulation performance is broadly predictive of real-world robot performance, with an overall Pearson correlation of r = 0.89, Spearman correlation of ρ = 0.85 and Mean Maximum Rank Violation (MMRV) of 0.06 across method-task configurations. These results establish H2RBench as a practical and scalable benchmark for comparative H2R evaluation prior to real-world deployment."
+  authors: Chuyang Xiao*, Haotian Zhan*, Sriram Krishna, Peilin Meng, Muhammad Zubair Irshad, Sergey Zakharov, David Held
   award: null
+  arxiv_url: https://arxiv.org/abs/2609.24778
   bib: >
     @inproceedings{xiao2026h2rbench,
       title={{H2RBench}: A Real-to-Sim Benchmark for Evaluating Human-to-Robot Transfer},
       author={Chuyang Xiao and Haotian Zhan and Sriram Krishna and Peilin Meng and Muhammad Zubair Irshad and Sergey Zakharov and David Held},
       booktitle={Conference on Robot Learning (CoRL)},
-      year={2026},
-      note={To appear}
+      year={2026}
     }
-  img: '../pics/corl_2026_logo.jpeg'
+  img: '../pics/corl2026_h2rbench.gif'
   links:
+    '[arXiv]': https://arxiv.org/abs/2609.24778
+    '[PDF]': https://arxiv.org/pdf/2609.24778
     '[OpenReview]': https://openreview.net/forum?id=SMKzI5HX9P
   short_id: xiao2026h2rbench
-  site: null
+  site: https://h2rbench.github.io/
   title: "H2RBench: A Real-to-Sim Benchmark for Evaluating Human-to-Robot Transfer"
-  venue: "Conference on Robot Learning (CoRL), 2026 (to appear)"
-  video_embed: null
+  venue: "Conference on Robot Learning (CoRL), 2026"
+  video_embed: <iframe width="560" height="315" src="https://h2rbench.github.io/static/videos/intro.mp4" title="H2RBench video" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   tags: null
 
 - abs: null
   authors: Kallol Saha, Yining Hong, Amber Li, Yejin Choi, Maxim Likhachev, David Held
-  award: null
+  award: <award>Oral Presentation</award>  (Selection rate 1%)
   bib: >
     @inproceedings{saha2026longhorizon,
       title={Long-Horizon Multi-Object Rearrangement via Distilled Tree Search over Continuous Actions},
       author={Kallol Saha and Yining Hong and Amber Li and Yejin Choi and Maxim Likhachev and David Held},
       booktitle={Conference on Robot Learning (CoRL)},
-      year={2026},
-      note={To appear}
+      year={2026}
     }
-  img: '../pics/corl_2026_logo.jpeg'
+  img: '../pics/corl2026_disco.gif'
   links:
     '[OpenReview]': https://openreview.net/forum?id=hWuk4y2AeR
   short_id: saha2026longhorizon
-  site: null
+  site: https://distilled-search.github.io/
   title: "Long-Horizon Multi-Object Rearrangement via Distilled Tree Search over Continuous Actions"
-  venue: "Conference on Robot Learning (CoRL), 2026 (to appear)"
+  venue: "Conference on Robot Learning (CoRL), 2026"
   video_embed: null
   tags: null
 
