@@ -69,8 +69,7 @@
       title={{H2RBench}: A Real-to-Sim Benchmark for Evaluating Human-to-Robot Transfer},
       author={Chuyang Xiao and Haotian Zhan and Sriram Krishna and Peilin Meng and Muhammad Zubair Irshad and Sergey Zakharov and David Held},
       booktitle={Conference on Robot Learning (CoRL)},
-      year={2026},
-      note={To appear}
+      year={2026}
     }
   img: '../pics/corl2026_h2rbench.gif'
   links:
@@ -80,7 +79,7 @@
   short_id: xiao2026h2rbench
   site: https://h2rbench.github.io/
   title: "H2RBench: A Real-to-Sim Benchmark for Evaluating Human-to-Robot Transfer"
-  venue: "Conference on Robot Learning (CoRL), 2026 (to appear)"
+  venue: "Conference on Robot Learning (CoRL), 2026"
   video_embed: <iframe width="560" height="315" src="https://h2rbench.github.io/static/videos/intro.mp4" title="H2RBench video" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   tags: null
 
