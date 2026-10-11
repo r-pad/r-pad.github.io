@@ -53,7 +53,7 @@ members:
             web_url: https://eubooks3003.github.io/
           - name: Haotian Zhan (MSR)
             photo_url: /img/members/haotian.jpg
-            web_url: https://www.linkedin.com/in/haotian-zhan-96935126a/
+            web_url: https://haotianzhan.github.io/
           - name: Xinyu Liu (MSCV)
             photo_url: /img/members/xinyu.jpg
             web_url: https://www.linkedin.com/in/xinyu-zoey-liu/
