@@ -77,10 +77,10 @@
     '[PDF]': https://arxiv.org/pdf/2609.24778
     '[OpenReview]': https://openreview.net/forum?id=SMKzI5HX9P
   short_id: xiao2026h2rbench
-  site: https://h2rbench.github.io/
+  site: https://davidz2851.github.io/h2rbench.github.io/
   title: "H2RBench: A Real-to-Sim Benchmark for Evaluating Human-to-Robot Transfer"
   venue: "Conference on Robot Learning (CoRL), 2026"
-  video_embed: <iframe width="560" height="315" src="https://h2rbench.github.io/static/videos/intro.mp4" title="H2RBench video" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  video_embed: <iframe width="560" height="315" src="https://davidz2851.github.io/h2rbench.github.io/static/videos/intro.mp4" title="H2RBench video" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   tags: null
 
 - abs: null
