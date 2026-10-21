@@ -67,7 +67,7 @@ members:
             photo_url: /img/members/robert.jpg
             web_url: https://www.linkedin.com/in/robert-chu-614550290/
           - name: Fiona Liu (MSR)
-            photo_url: /img/members/fionaliu.jpg
+            photo_url: /img/members/fionaliu.png
             web_url: https://www.linkedin.com/in/yuxin-liu-fiona
           
       - name: Undergraduate Students
