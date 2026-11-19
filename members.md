@@ -47,7 +47,7 @@ members:
             web_url: https://madhavaniyengar.github.io/
           - name: Liyuan Geng (MSR)
             photo_url: /img/members/liyuan.jpg
-            web_url: https://www.linkedin.com/in/liyuan-geng-120a65238/
+            web_url: https://lygeng0427.github.io/
           - name: Ellina Zhang (MSR)
             photo_url: /img/members/ellina.jpg
             web_url: https://eubooks3003.github.io/
