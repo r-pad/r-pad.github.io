@@ -69,6 +69,9 @@ members:
           - name: Fiona Liu (MSR)
             photo_url: /img/members/fionaliu.png
             web_url: https://www.linkedin.com/in/yuxin-liu-fiona
+          - name: Jianing Zhang (MSCV)
+            photo_url: /img/members/jianing.jpg
+            web_url: https://jianingnz.github.io/
           
       - name: Undergraduate Students
         full: true
