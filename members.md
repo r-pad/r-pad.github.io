@@ -88,7 +88,9 @@ members:
           - name: Daichi Yashima
             photo_url: /img/members/daichi.png
             web_url: https://daichi1207.github.io/
-
+	  - name: Peilin Meng
+	    photo_url: /img/members/peilin.jpg
+	    web_url: https://mengpeilin.github.io/
   - name: <a name="alumni"></a>Alumni
     list:
       - name: Post-Doc alumni
